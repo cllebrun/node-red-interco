@@ -1,5 +1,7 @@
-# Node-RED
+# Clone the app in Bluemix using the Toolchain
+[![Create Toolchain](https://github.com/amprasanna/images/blob/master/Toolchain.png)](https://console.ng.bluemix.net/devops/setup/deploy?repository=https://github.com/cllebrun/node-red-interco.git)
 
+# Node-RED
 http://nodered.org
 
 [![Build Status](https://travis-ci.org/node-red/node-red.svg)](https://travis-ci.org/node-red/node-red)
