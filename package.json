@@ -29,8 +29,7 @@
   "keywords": [
     "editor",
     "messaging",
-    "iot",
-    "flow"
+    "iot"
   ],
   "dependencies": {
     "basic-auth": "1.1.0",

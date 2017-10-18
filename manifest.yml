@@ -1,0 +1,9 @@
+applications:
+- services:
+  #host: node-red-app
+  #name: node-red-app
+  #disk: 128M
+  command: node app.js
+  path: .
+  #memory: 128M 
+instances: 1

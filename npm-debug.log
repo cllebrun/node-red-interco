@@ -1,0 +1,2121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose readDependencies loading dependencies from /Users/lebrun/Documents/interco17/nodered/node-red/package.json
+5 verbose install where, deps [ '/Users/lebrun/Documents/interco17/nodered/node-red',
+5 verbose install   [ 'basic-auth',
+5 verbose install     'bcryptjs',
+5 verbose install     'body-parser',
+5 verbose install     'cheerio',
+5 verbose install     'clone',
+5 verbose install     'cookie-parser',
+5 verbose install     'cors',
+5 verbose install     'cron',
+5 verbose install     'express',
+5 verbose install     'follow-redirects',
+5 verbose install     'fs-extra',
+5 verbose install     'fs.notify',
+5 verbose install     'i18next',
+5 verbose install     'is-utf8',
+5 verbose install     'js-yaml',
+5 verbose install     'json-stringify-safe',
+5 verbose install     'jsonata',
+5 verbose install     'media-typer',
+5 verbose install     'mqtt',
+5 verbose install     'mustache',
+5 verbose install     'node-red-contrib-browser-utils',
+5 verbose install     'node-red-contrib-media-utils',
+5 verbose install     'node-red-contrib-play-audio',
+5 verbose install     'node-red-node-email',
+5 verbose install     'node-red-node-feedparser',
+5 verbose install     'node-red-node-rbe',
+5 verbose install     'node-red-node-twitter',
+5 verbose install     'node-red-node-watson',
+5 verbose install     'nopt',
+5 verbose install     'oauth2orize',
+5 verbose install     'on-headers',
+5 verbose install     'passport',
+5 verbose install     'passport-http-bearer',
+5 verbose install     'passport-oauth2-client-password',
+5 verbose install     'raw-body',
+5 verbose install     'semver',
+5 verbose install     'sentiment',
+5 verbose install     'uglify-js',
+5 verbose install     'when',
+5 verbose install     'ws',
+5 verbose install     'xml2js',
+5 verbose install     'bcrypt',
+5 verbose install     'grunt',
+5 verbose install     'grunt-chmod',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-compress',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-jsonlint',
+5 verbose install     'grunt-nodemon',
+5 verbose install     'grunt-sass',
+5 verbose install     'grunt-simple-mocha',
+5 verbose install     'mocha',
+5 verbose install     'should',
+5 verbose install     'sinon',
+5 verbose install     'supertest' ] ]
+6 verbose install where, peers [ '/Users/lebrun/Documents/interco17/nodered/node-red', [] ]
+7 verbose installManyTop reading for lifecycle /Users/lebrun/Documents/interco17/nodered/node-red/package.json
+8 info preinstall node-red@0.16.2
+9 verbose readDependencies loading dependencies from /Users/lebrun/Documents/interco17/nodered/node-red/package.json
+10 silly cache add args [ 'clone@2.1.0', null ]
+11 verbose cache add spec clone@2.1.0
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'clone@2.1.0',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'clone',
+12 silly cache add   rawSpec: '2.1.0',
+12 silly cache add   spec: '2.1.0',
+12 silly cache add   type: 'version' }
+13 silly addNamed clone@2.1.0
+14 verbose addNamed "2.1.0" is a plain semver version for clone
+15 silly mapToRegistry name clone
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+18 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/clone
+19 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/clone not in flight; fetching
+20 silly cache add args [ 'cookie-parser@1.4.3', null ]
+21 verbose cache add spec cookie-parser@1.4.3
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'cookie-parser@1.4.3',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'cookie-parser',
+22 silly cache add   rawSpec: '1.4.3',
+22 silly cache add   spec: '1.4.3',
+22 silly cache add   type: 'version' }
+23 silly addNamed cookie-parser@1.4.3
+24 verbose addNamed "1.4.3" is a plain semver version for cookie-parser
+25 silly mapToRegistry name cookie-parser
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+28 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/cookie-parser
+29 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/cookie-parser not in flight; fetching
+30 silly cache add args [ 'cors@2.8.1', null ]
+31 verbose cache add spec cors@2.8.1
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'cors@2.8.1',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'cors',
+32 silly cache add   rawSpec: '2.8.1',
+32 silly cache add   spec: '2.8.1',
+32 silly cache add   type: 'version' }
+33 silly addNamed cors@2.8.1
+34 verbose addNamed "2.8.1" is a plain semver version for cors
+35 silly mapToRegistry name cors
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+38 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/cors
+39 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/cors not in flight; fetching
+40 silly cache add args [ 'cron@1.2.1', null ]
+41 verbose cache add spec cron@1.2.1
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'cron@1.2.1',
+42 silly cache add   scope: null,
+42 silly cache add   name: 'cron',
+42 silly cache add   rawSpec: '1.2.1',
+42 silly cache add   spec: '1.2.1',
+42 silly cache add   type: 'version' }
+43 silly addNamed cron@1.2.1
+44 verbose addNamed "1.2.1" is a plain semver version for cron
+45 silly mapToRegistry name cron
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+48 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/cron
+49 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/cron not in flight; fetching
+50 silly cache add args [ 'express@4.14.0', null ]
+51 verbose cache add spec express@4.14.0
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: 'express@4.14.0',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'express',
+52 silly cache add   rawSpec: '4.14.0',
+52 silly cache add   spec: '4.14.0',
+52 silly cache add   type: 'version' }
+53 silly addNamed express@4.14.0
+54 verbose addNamed "4.14.0" is a plain semver version for express
+55 silly mapToRegistry name express
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+58 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/express
+59 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/express not in flight; fetching
+60 silly cache add args [ 'follow-redirects@1.2.1', null ]
+61 verbose cache add spec follow-redirects@1.2.1
+62 silly cache add parsed spec Result {
+62 silly cache add   raw: 'follow-redirects@1.2.1',
+62 silly cache add   scope: null,
+62 silly cache add   name: 'follow-redirects',
+62 silly cache add   rawSpec: '1.2.1',
+62 silly cache add   spec: '1.2.1',
+62 silly cache add   type: 'version' }
+63 silly addNamed follow-redirects@1.2.1
+64 verbose addNamed "1.2.1" is a plain semver version for follow-redirects
+65 silly mapToRegistry name follow-redirects
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+68 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/follow-redirects
+69 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/follow-redirects not in flight; fetching
+70 silly cache add args [ 'fs-extra@1.0.0', null ]
+71 verbose cache add spec fs-extra@1.0.0
+72 silly cache add parsed spec Result {
+72 silly cache add   raw: 'fs-extra@1.0.0',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'fs-extra',
+72 silly cache add   rawSpec: '1.0.0',
+72 silly cache add   spec: '1.0.0',
+72 silly cache add   type: 'version' }
+73 silly addNamed fs-extra@1.0.0
+74 verbose addNamed "1.0.0" is a plain semver version for fs-extra
+75 silly mapToRegistry name fs-extra
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+78 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/fs-extra
+79 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/fs-extra not in flight; fetching
+80 silly cache add args [ 'fs.notify@0.0.4', null ]
+81 verbose cache add spec fs.notify@0.0.4
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'fs.notify@0.0.4',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'fs.notify',
+82 silly cache add   rawSpec: '0.0.4',
+82 silly cache add   spec: '0.0.4',
+82 silly cache add   type: 'version' }
+83 silly addNamed fs.notify@0.0.4
+84 verbose addNamed "0.0.4" is a plain semver version for fs.notify
+85 silly mapToRegistry name fs.notify
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+88 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/fs.notify
+89 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/fs.notify not in flight; fetching
+90 silly cache add args [ 'i18next@1.10.6', null ]
+91 verbose cache add spec i18next@1.10.6
+92 silly cache add parsed spec Result {
+92 silly cache add   raw: 'i18next@1.10.6',
+92 silly cache add   scope: null,
+92 silly cache add   name: 'i18next',
+92 silly cache add   rawSpec: '1.10.6',
+92 silly cache add   spec: '1.10.6',
+92 silly cache add   type: 'version' }
+93 silly addNamed i18next@1.10.6
+94 verbose addNamed "1.10.6" is a plain semver version for i18next
+95 silly mapToRegistry name i18next
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+98 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/i18next
+99 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/i18next not in flight; fetching
+100 silly cache add args [ 'is-utf8@0.2.1', null ]
+101 verbose cache add spec is-utf8@0.2.1
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'is-utf8@0.2.1',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'is-utf8',
+102 silly cache add   rawSpec: '0.2.1',
+102 silly cache add   spec: '0.2.1',
+102 silly cache add   type: 'version' }
+103 silly addNamed is-utf8@0.2.1
+104 verbose addNamed "0.2.1" is a plain semver version for is-utf8
+105 silly mapToRegistry name is-utf8
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+108 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/is-utf8
+109 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/is-utf8 not in flight; fetching
+110 silly cache add args [ 'js-yaml@3.7.0', null ]
+111 verbose cache add spec js-yaml@3.7.0
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'js-yaml@3.7.0',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'js-yaml',
+112 silly cache add   rawSpec: '3.7.0',
+112 silly cache add   spec: '3.7.0',
+112 silly cache add   type: 'version' }
+113 silly addNamed js-yaml@3.7.0
+114 verbose addNamed "3.7.0" is a plain semver version for js-yaml
+115 silly mapToRegistry name js-yaml
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+118 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/js-yaml
+119 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/js-yaml not in flight; fetching
+120 silly cache add args [ 'json-stringify-safe@5.0.1', null ]
+121 verbose cache add spec json-stringify-safe@5.0.1
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'json-stringify-safe@5.0.1',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'json-stringify-safe',
+122 silly cache add   rawSpec: '5.0.1',
+122 silly cache add   spec: '5.0.1',
+122 silly cache add   type: 'version' }
+123 silly addNamed json-stringify-safe@5.0.1
+124 verbose addNamed "5.0.1" is a plain semver version for json-stringify-safe
+125 silly mapToRegistry name json-stringify-safe
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+128 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/json-stringify-safe
+129 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/json-stringify-safe not in flight; fetching
+130 silly cache add args [ 'jsonata@1.0.10', null ]
+131 verbose cache add spec jsonata@1.0.10
+132 silly cache add parsed spec Result {
+132 silly cache add   raw: 'jsonata@1.0.10',
+132 silly cache add   scope: null,
+132 silly cache add   name: 'jsonata',
+132 silly cache add   rawSpec: '1.0.10',
+132 silly cache add   spec: '1.0.10',
+132 silly cache add   type: 'version' }
+133 silly addNamed jsonata@1.0.10
+134 verbose addNamed "1.0.10" is a plain semver version for jsonata
+135 silly mapToRegistry name jsonata
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+138 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/jsonata
+139 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/jsonata not in flight; fetching
+140 silly cache add args [ 'media-typer@0.3.0', null ]
+141 verbose cache add spec media-typer@0.3.0
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'media-typer@0.3.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'media-typer',
+142 silly cache add   rawSpec: '0.3.0',
+142 silly cache add   spec: '0.3.0',
+142 silly cache add   type: 'version' }
+143 silly addNamed media-typer@0.3.0
+144 verbose addNamed "0.3.0" is a plain semver version for media-typer
+145 silly mapToRegistry name media-typer
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+148 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/media-typer
+149 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/media-typer not in flight; fetching
+150 silly cache add args [ 'mqtt@2.2.1', null ]
+151 verbose cache add spec mqtt@2.2.1
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'mqtt@2.2.1',
+152 silly cache add   scope: null,
+152 silly cache add   name: 'mqtt',
+152 silly cache add   rawSpec: '2.2.1',
+152 silly cache add   spec: '2.2.1',
+152 silly cache add   type: 'version' }
+153 silly addNamed mqtt@2.2.1
+154 verbose addNamed "2.2.1" is a plain semver version for mqtt
+155 silly mapToRegistry name mqtt
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+158 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/mqtt
+159 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/mqtt not in flight; fetching
+160 silly cache add args [ 'mustache@2.3.0', null ]
+161 verbose cache add spec mustache@2.3.0
+162 silly cache add parsed spec Result {
+162 silly cache add   raw: 'mustache@2.3.0',
+162 silly cache add   scope: null,
+162 silly cache add   name: 'mustache',
+162 silly cache add   rawSpec: '2.3.0',
+162 silly cache add   spec: '2.3.0',
+162 silly cache add   type: 'version' }
+163 silly addNamed mustache@2.3.0
+164 verbose addNamed "2.3.0" is a plain semver version for mustache
+165 silly mapToRegistry name mustache
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+168 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/mustache
+169 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/mustache not in flight; fetching
+170 silly cache add args [ 'node-red-contrib-browser-utils@0.x', null ]
+171 verbose cache add spec node-red-contrib-browser-utils@0.x
+172 silly cache add parsed spec Result {
+172 silly cache add   raw: 'node-red-contrib-browser-utils@0.x',
+172 silly cache add   scope: null,
+172 silly cache add   name: 'node-red-contrib-browser-utils',
+172 silly cache add   rawSpec: '0.x',
+172 silly cache add   spec: '>=0.0.0 <1.0.0',
+172 silly cache add   type: 'range' }
+173 silly addNamed node-red-contrib-browser-utils@>=0.0.0 <1.0.0
+174 verbose addNamed ">=0.0.0 <1.0.0" is a valid semver range for node-red-contrib-browser-utils
+175 silly addNameRange { name: 'node-red-contrib-browser-utils',
+175 silly addNameRange   range: '>=0.0.0 <1.0.0',
+175 silly addNameRange   hasData: false }
+176 silly mapToRegistry name node-red-contrib-browser-utils
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+179 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-contrib-browser-utils
+180 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-contrib-browser-utils not in flight; fetching
+181 silly cache add args [ 'node-red-contrib-media-utils@0.x', null ]
+182 verbose cache add spec node-red-contrib-media-utils@0.x
+183 silly cache add parsed spec Result {
+183 silly cache add   raw: 'node-red-contrib-media-utils@0.x',
+183 silly cache add   scope: null,
+183 silly cache add   name: 'node-red-contrib-media-utils',
+183 silly cache add   rawSpec: '0.x',
+183 silly cache add   spec: '>=0.0.0 <1.0.0',
+183 silly cache add   type: 'range' }
+184 silly addNamed node-red-contrib-media-utils@>=0.0.0 <1.0.0
+185 verbose addNamed ">=0.0.0 <1.0.0" is a valid semver range for node-red-contrib-media-utils
+186 silly addNameRange { name: 'node-red-contrib-media-utils',
+186 silly addNameRange   range: '>=0.0.0 <1.0.0',
+186 silly addNameRange   hasData: false }
+187 silly mapToRegistry name node-red-contrib-media-utils
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+190 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-contrib-media-utils
+191 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-contrib-media-utils not in flight; fetching
+192 silly cache add args [ 'node-red-contrib-play-audio@2.0.x', null ]
+193 verbose cache add spec node-red-contrib-play-audio@2.0.x
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'node-red-contrib-play-audio@2.0.x',
+194 silly cache add   scope: null,
+194 silly cache add   name: 'node-red-contrib-play-audio',
+194 silly cache add   rawSpec: '2.0.x',
+194 silly cache add   spec: '>=2.0.0 <2.1.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed node-red-contrib-play-audio@>=2.0.0 <2.1.0
+196 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for node-red-contrib-play-audio
+197 silly addNameRange { name: 'node-red-contrib-play-audio',
+197 silly addNameRange   range: '>=2.0.0 <2.1.0',
+197 silly addNameRange   hasData: false }
+198 silly mapToRegistry name node-red-contrib-play-audio
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+201 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-contrib-play-audio
+202 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-contrib-play-audio not in flight; fetching
+203 silly cache add args [ 'node-red-node-email@0.1.*', null ]
+204 verbose cache add spec node-red-node-email@0.1.*
+205 silly cache add parsed spec Result {
+205 silly cache add   raw: 'node-red-node-email@0.1.*',
+205 silly cache add   scope: null,
+205 silly cache add   name: 'node-red-node-email',
+205 silly cache add   rawSpec: '0.1.*',
+205 silly cache add   spec: '>=0.1.0 <0.2.0',
+205 silly cache add   type: 'range' }
+206 silly addNamed node-red-node-email@>=0.1.0 <0.2.0
+207 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for node-red-node-email
+208 silly addNameRange { name: 'node-red-node-email',
+208 silly addNameRange   range: '>=0.1.0 <0.2.0',
+208 silly addNameRange   hasData: false }
+209 silly mapToRegistry name node-red-node-email
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+212 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-node-email
+213 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-node-email not in flight; fetching
+214 silly cache add args [ 'node-red-node-feedparser@0.1.*', null ]
+215 verbose cache add spec node-red-node-feedparser@0.1.*
+216 silly cache add parsed spec Result {
+216 silly cache add   raw: 'node-red-node-feedparser@0.1.*',
+216 silly cache add   scope: null,
+216 silly cache add   name: 'node-red-node-feedparser',
+216 silly cache add   rawSpec: '0.1.*',
+216 silly cache add   spec: '>=0.1.0 <0.2.0',
+216 silly cache add   type: 'range' }
+217 silly addNamed node-red-node-feedparser@>=0.1.0 <0.2.0
+218 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for node-red-node-feedparser
+219 silly addNameRange { name: 'node-red-node-feedparser',
+219 silly addNameRange   range: '>=0.1.0 <0.2.0',
+219 silly addNameRange   hasData: false }
+220 silly mapToRegistry name node-red-node-feedparser
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+223 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-node-feedparser
+224 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-node-feedparser not in flight; fetching
+225 silly cache add args [ 'node-red-node-rbe@0.1.*', null ]
+226 verbose cache add spec node-red-node-rbe@0.1.*
+227 silly cache add parsed spec Result {
+227 silly cache add   raw: 'node-red-node-rbe@0.1.*',
+227 silly cache add   scope: null,
+227 silly cache add   name: 'node-red-node-rbe',
+227 silly cache add   rawSpec: '0.1.*',
+227 silly cache add   spec: '>=0.1.0 <0.2.0',
+227 silly cache add   type: 'range' }
+228 silly addNamed node-red-node-rbe@>=0.1.0 <0.2.0
+229 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for node-red-node-rbe
+230 silly addNameRange { name: 'node-red-node-rbe',
+230 silly addNameRange   range: '>=0.1.0 <0.2.0',
+230 silly addNameRange   hasData: false }
+231 silly mapToRegistry name node-red-node-rbe
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+234 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-node-rbe
+235 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-node-rbe not in flight; fetching
+236 silly cache add args [ 'node-red-node-twitter@0.1.*', null ]
+237 verbose cache add spec node-red-node-twitter@0.1.*
+238 silly cache add parsed spec Result {
+238 silly cache add   raw: 'node-red-node-twitter@0.1.*',
+238 silly cache add   scope: null,
+238 silly cache add   name: 'node-red-node-twitter',
+238 silly cache add   rawSpec: '0.1.*',
+238 silly cache add   spec: '>=0.1.0 <0.2.0',
+238 silly cache add   type: 'range' }
+239 silly addNamed node-red-node-twitter@>=0.1.0 <0.2.0
+240 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for node-red-node-twitter
+241 silly addNameRange { name: 'node-red-node-twitter',
+241 silly addNameRange   range: '>=0.1.0 <0.2.0',
+241 silly addNameRange   hasData: false }
+242 silly mapToRegistry name node-red-node-twitter
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+245 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-node-twitter
+246 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-node-twitter not in flight; fetching
+247 silly cache add args [ 'node-red-node-watson@^0.5.2', null ]
+248 verbose cache add spec node-red-node-watson@^0.5.2
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'node-red-node-watson@^0.5.2',
+249 silly cache add   scope: null,
+249 silly cache add   name: 'node-red-node-watson',
+249 silly cache add   rawSpec: '^0.5.2',
+249 silly cache add   spec: '>=0.5.2 <0.6.0',
+249 silly cache add   type: 'range' }
+250 silly addNamed node-red-node-watson@>=0.5.2 <0.6.0
+251 verbose addNamed ">=0.5.2 <0.6.0" is a valid semver range for node-red-node-watson
+252 silly addNameRange { name: 'node-red-node-watson',
+252 silly addNameRange   range: '>=0.5.2 <0.6.0',
+252 silly addNameRange   hasData: false }
+253 silly mapToRegistry name node-red-node-watson
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+256 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/node-red-node-watson
+257 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/node-red-node-watson not in flight; fetching
+258 silly cache add args [ 'nopt@3.0.6', null ]
+259 verbose cache add spec nopt@3.0.6
+260 silly cache add parsed spec Result {
+260 silly cache add   raw: 'nopt@3.0.6',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'nopt',
+260 silly cache add   rawSpec: '3.0.6',
+260 silly cache add   spec: '3.0.6',
+260 silly cache add   type: 'version' }
+261 silly addNamed nopt@3.0.6
+262 verbose addNamed "3.0.6" is a plain semver version for nopt
+263 silly mapToRegistry name nopt
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+266 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/nopt
+267 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/nopt not in flight; fetching
+268 silly cache add args [ 'oauth2orize@1.7.0', null ]
+269 verbose cache add spec oauth2orize@1.7.0
+270 silly cache add parsed spec Result {
+270 silly cache add   raw: 'oauth2orize@1.7.0',
+270 silly cache add   scope: null,
+270 silly cache add   name: 'oauth2orize',
+270 silly cache add   rawSpec: '1.7.0',
+270 silly cache add   spec: '1.7.0',
+270 silly cache add   type: 'version' }
+271 silly addNamed oauth2orize@1.7.0
+272 verbose addNamed "1.7.0" is a plain semver version for oauth2orize
+273 silly mapToRegistry name oauth2orize
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+276 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/oauth2orize
+277 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/oauth2orize not in flight; fetching
+278 silly cache add args [ 'on-headers@1.0.1', null ]
+279 verbose cache add spec on-headers@1.0.1
+280 silly cache add parsed spec Result {
+280 silly cache add   raw: 'on-headers@1.0.1',
+280 silly cache add   scope: null,
+280 silly cache add   name: 'on-headers',
+280 silly cache add   rawSpec: '1.0.1',
+280 silly cache add   spec: '1.0.1',
+280 silly cache add   type: 'version' }
+281 silly addNamed on-headers@1.0.1
+282 verbose addNamed "1.0.1" is a plain semver version for on-headers
+283 silly mapToRegistry name on-headers
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+286 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/on-headers
+287 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/on-headers not in flight; fetching
+288 silly cache add args [ 'passport@0.3.2', null ]
+289 verbose cache add spec passport@0.3.2
+290 silly cache add parsed spec Result {
+290 silly cache add   raw: 'passport@0.3.2',
+290 silly cache add   scope: null,
+290 silly cache add   name: 'passport',
+290 silly cache add   rawSpec: '0.3.2',
+290 silly cache add   spec: '0.3.2',
+290 silly cache add   type: 'version' }
+291 silly addNamed passport@0.3.2
+292 verbose addNamed "0.3.2" is a plain semver version for passport
+293 silly mapToRegistry name passport
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+296 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/passport
+297 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/passport not in flight; fetching
+298 silly cache add args [ 'passport-http-bearer@1.0.1', null ]
+299 verbose cache add spec passport-http-bearer@1.0.1
+300 silly cache add parsed spec Result {
+300 silly cache add   raw: 'passport-http-bearer@1.0.1',
+300 silly cache add   scope: null,
+300 silly cache add   name: 'passport-http-bearer',
+300 silly cache add   rawSpec: '1.0.1',
+300 silly cache add   spec: '1.0.1',
+300 silly cache add   type: 'version' }
+301 silly addNamed passport-http-bearer@1.0.1
+302 verbose addNamed "1.0.1" is a plain semver version for passport-http-bearer
+303 silly mapToRegistry name passport-http-bearer
+304 silly mapToRegistry using default registry
+305 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+306 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/passport-http-bearer
+307 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/passport-http-bearer not in flight; fetching
+308 silly cache add args [ 'passport-oauth2-client-password@0.1.2', null ]
+309 verbose cache add spec passport-oauth2-client-password@0.1.2
+310 silly cache add parsed spec Result {
+310 silly cache add   raw: 'passport-oauth2-client-password@0.1.2',
+310 silly cache add   scope: null,
+310 silly cache add   name: 'passport-oauth2-client-password',
+310 silly cache add   rawSpec: '0.1.2',
+310 silly cache add   spec: '0.1.2',
+310 silly cache add   type: 'version' }
+311 silly addNamed passport-oauth2-client-password@0.1.2
+312 verbose addNamed "0.1.2" is a plain semver version for passport-oauth2-client-password
+313 silly mapToRegistry name passport-oauth2-client-password
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+316 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/passport-oauth2-client-password
+317 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/passport-oauth2-client-password not in flight; fetching
+318 silly cache add args [ 'raw-body@2.2.0', null ]
+319 verbose cache add spec raw-body@2.2.0
+320 silly cache add parsed spec Result {
+320 silly cache add   raw: 'raw-body@2.2.0',
+320 silly cache add   scope: null,
+320 silly cache add   name: 'raw-body',
+320 silly cache add   rawSpec: '2.2.0',
+320 silly cache add   spec: '2.2.0',
+320 silly cache add   type: 'version' }
+321 silly addNamed raw-body@2.2.0
+322 verbose addNamed "2.2.0" is a plain semver version for raw-body
+323 silly mapToRegistry name raw-body
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+326 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/raw-body
+327 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/raw-body not in flight; fetching
+328 silly cache add args [ 'semver@5.3.0', null ]
+329 verbose cache add spec semver@5.3.0
+330 silly cache add parsed spec Result {
+330 silly cache add   raw: 'semver@5.3.0',
+330 silly cache add   scope: null,
+330 silly cache add   name: 'semver',
+330 silly cache add   rawSpec: '5.3.0',
+330 silly cache add   spec: '5.3.0',
+330 silly cache add   type: 'version' }
+331 silly addNamed semver@5.3.0
+332 verbose addNamed "5.3.0" is a plain semver version for semver
+333 silly mapToRegistry name semver
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+336 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/semver
+337 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/semver not in flight; fetching
+338 silly cache add args [ 'sentiment@2.1.0', null ]
+339 verbose cache add spec sentiment@2.1.0
+340 silly cache add parsed spec Result {
+340 silly cache add   raw: 'sentiment@2.1.0',
+340 silly cache add   scope: null,
+340 silly cache add   name: 'sentiment',
+340 silly cache add   rawSpec: '2.1.0',
+340 silly cache add   spec: '2.1.0',
+340 silly cache add   type: 'version' }
+341 silly addNamed sentiment@2.1.0
+342 verbose addNamed "2.1.0" is a plain semver version for sentiment
+343 silly mapToRegistry name sentiment
+344 silly mapToRegistry using default registry
+345 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+346 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/sentiment
+347 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/sentiment not in flight; fetching
+348 silly cache add args [ 'uglify-js@2.7.5', null ]
+349 verbose cache add spec uglify-js@2.7.5
+350 silly cache add parsed spec Result {
+350 silly cache add   raw: 'uglify-js@2.7.5',
+350 silly cache add   scope: null,
+350 silly cache add   name: 'uglify-js',
+350 silly cache add   rawSpec: '2.7.5',
+350 silly cache add   spec: '2.7.5',
+350 silly cache add   type: 'version' }
+351 silly addNamed uglify-js@2.7.5
+352 verbose addNamed "2.7.5" is a plain semver version for uglify-js
+353 silly mapToRegistry name uglify-js
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+356 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/uglify-js
+357 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/uglify-js not in flight; fetching
+358 silly cache add args [ 'when@3.7.7', null ]
+359 verbose cache add spec when@3.7.7
+360 silly cache add parsed spec Result {
+360 silly cache add   raw: 'when@3.7.7',
+360 silly cache add   scope: null,
+360 silly cache add   name: 'when',
+360 silly cache add   rawSpec: '3.7.7',
+360 silly cache add   spec: '3.7.7',
+360 silly cache add   type: 'version' }
+361 silly addNamed when@3.7.7
+362 verbose addNamed "3.7.7" is a plain semver version for when
+363 silly mapToRegistry name when
+364 silly mapToRegistry using default registry
+365 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+366 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/when
+367 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/when not in flight; fetching
+368 silly cache add args [ 'ws@1.1.1', null ]
+369 verbose cache add spec ws@1.1.1
+370 silly cache add parsed spec Result {
+370 silly cache add   raw: 'ws@1.1.1',
+370 silly cache add   scope: null,
+370 silly cache add   name: 'ws',
+370 silly cache add   rawSpec: '1.1.1',
+370 silly cache add   spec: '1.1.1',
+370 silly cache add   type: 'version' }
+371 silly addNamed ws@1.1.1
+372 verbose addNamed "1.1.1" is a plain semver version for ws
+373 silly mapToRegistry name ws
+374 silly mapToRegistry using default registry
+375 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+376 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/ws
+377 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/ws not in flight; fetching
+378 silly cache add args [ 'xml2js@0.4.17', null ]
+379 verbose cache add spec xml2js@0.4.17
+380 silly cache add parsed spec Result {
+380 silly cache add   raw: 'xml2js@0.4.17',
+380 silly cache add   scope: null,
+380 silly cache add   name: 'xml2js',
+380 silly cache add   rawSpec: '0.4.17',
+380 silly cache add   spec: '0.4.17',
+380 silly cache add   type: 'version' }
+381 silly addNamed xml2js@0.4.17
+382 verbose addNamed "0.4.17" is a plain semver version for xml2js
+383 silly mapToRegistry name xml2js
+384 silly mapToRegistry using default registry
+385 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+386 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/xml2js
+387 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/xml2js not in flight; fetching
+388 silly cache add args [ 'bcrypt@~1.0.1', null ]
+389 verbose cache add spec bcrypt@~1.0.1
+390 silly cache add parsed spec Result {
+390 silly cache add   raw: 'bcrypt@~1.0.1',
+390 silly cache add   scope: null,
+390 silly cache add   name: 'bcrypt',
+390 silly cache add   rawSpec: '~1.0.1',
+390 silly cache add   spec: '>=1.0.1 <1.1.0',
+390 silly cache add   type: 'range' }
+391 silly addNamed bcrypt@>=1.0.1 <1.1.0
+392 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for bcrypt
+393 silly addNameRange { name: 'bcrypt', range: '>=1.0.1 <1.1.0', hasData: false }
+394 silly mapToRegistry name bcrypt
+395 silly mapToRegistry using default registry
+396 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+397 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/bcrypt
+398 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/bcrypt not in flight; fetching
+399 silly cache add args [ 'grunt@~1.0.1', null ]
+400 verbose cache add spec grunt@~1.0.1
+401 silly cache add parsed spec Result {
+401 silly cache add   raw: 'grunt@~1.0.1',
+401 silly cache add   scope: null,
+401 silly cache add   name: 'grunt',
+401 silly cache add   rawSpec: '~1.0.1',
+401 silly cache add   spec: '>=1.0.1 <1.1.0',
+401 silly cache add   type: 'range' }
+402 silly addNamed grunt@>=1.0.1 <1.1.0
+403 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for grunt
+404 silly addNameRange { name: 'grunt', range: '>=1.0.1 <1.1.0', hasData: false }
+405 silly mapToRegistry name grunt
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+408 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt
+409 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt not in flight; fetching
+410 silly cache add args [ 'grunt-chmod@~1.1.1', null ]
+411 verbose cache add spec grunt-chmod@~1.1.1
+412 silly cache add parsed spec Result {
+412 silly cache add   raw: 'grunt-chmod@~1.1.1',
+412 silly cache add   scope: null,
+412 silly cache add   name: 'grunt-chmod',
+412 silly cache add   rawSpec: '~1.1.1',
+412 silly cache add   spec: '>=1.1.1 <1.2.0',
+412 silly cache add   type: 'range' }
+413 silly addNamed grunt-chmod@>=1.1.1 <1.2.0
+414 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for grunt-chmod
+415 silly addNameRange { name: 'grunt-chmod', range: '>=1.1.1 <1.2.0', hasData: false }
+416 silly mapToRegistry name grunt-chmod
+417 silly mapToRegistry using default registry
+418 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+419 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-chmod
+420 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-chmod not in flight; fetching
+421 silly cache add args [ 'grunt-cli@~1.2.0', null ]
+422 verbose cache add spec grunt-cli@~1.2.0
+423 silly cache add parsed spec Result {
+423 silly cache add   raw: 'grunt-cli@~1.2.0',
+423 silly cache add   scope: null,
+423 silly cache add   name: 'grunt-cli',
+423 silly cache add   rawSpec: '~1.2.0',
+423 silly cache add   spec: '>=1.2.0 <1.3.0',
+423 silly cache add   type: 'range' }
+424 silly addNamed grunt-cli@>=1.2.0 <1.3.0
+425 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for grunt-cli
+426 silly addNameRange { name: 'grunt-cli', range: '>=1.2.0 <1.3.0', hasData: false }
+427 silly mapToRegistry name grunt-cli
+428 silly mapToRegistry using default registry
+429 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+430 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-cli
+431 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-cli not in flight; fetching
+432 silly cache add args [ 'grunt-concurrent@~2.3.1', null ]
+433 verbose cache add spec grunt-concurrent@~2.3.1
+434 silly cache add parsed spec Result {
+434 silly cache add   raw: 'grunt-concurrent@~2.3.1',
+434 silly cache add   scope: null,
+434 silly cache add   name: 'grunt-concurrent',
+434 silly cache add   rawSpec: '~2.3.1',
+434 silly cache add   spec: '>=2.3.1 <2.4.0',
+434 silly cache add   type: 'range' }
+435 silly addNamed grunt-concurrent@>=2.3.1 <2.4.0
+436 verbose addNamed ">=2.3.1 <2.4.0" is a valid semver range for grunt-concurrent
+437 silly addNameRange { name: 'grunt-concurrent',
+437 silly addNameRange   range: '>=2.3.1 <2.4.0',
+437 silly addNameRange   hasData: false }
+438 silly mapToRegistry name grunt-concurrent
+439 silly mapToRegistry using default registry
+440 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+441 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-concurrent
+442 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-concurrent not in flight; fetching
+443 silly cache add args [ 'grunt-contrib-clean@~1.0.0', null ]
+444 verbose cache add spec grunt-contrib-clean@~1.0.0
+445 silly cache add parsed spec Result {
+445 silly cache add   raw: 'grunt-contrib-clean@~1.0.0',
+445 silly cache add   scope: null,
+445 silly cache add   name: 'grunt-contrib-clean',
+445 silly cache add   rawSpec: '~1.0.0',
+445 silly cache add   spec: '>=1.0.0 <1.1.0',
+445 silly cache add   type: 'range' }
+446 silly addNamed grunt-contrib-clean@>=1.0.0 <1.1.0
+447 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-contrib-clean
+448 silly addNameRange { name: 'grunt-contrib-clean',
+448 silly addNameRange   range: '>=1.0.0 <1.1.0',
+448 silly addNameRange   hasData: false }
+449 silly mapToRegistry name grunt-contrib-clean
+450 silly mapToRegistry using default registry
+451 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+452 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-clean
+453 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-clean not in flight; fetching
+454 silly cache add args [ 'grunt-contrib-compress@~1.3.0', null ]
+455 verbose cache add spec grunt-contrib-compress@~1.3.0
+456 silly cache add parsed spec Result {
+456 silly cache add   raw: 'grunt-contrib-compress@~1.3.0',
+456 silly cache add   scope: null,
+456 silly cache add   name: 'grunt-contrib-compress',
+456 silly cache add   rawSpec: '~1.3.0',
+456 silly cache add   spec: '>=1.3.0 <1.4.0',
+456 silly cache add   type: 'range' }
+457 silly addNamed grunt-contrib-compress@>=1.3.0 <1.4.0
+458 verbose addNamed ">=1.3.0 <1.4.0" is a valid semver range for grunt-contrib-compress
+459 silly addNameRange { name: 'grunt-contrib-compress',
+459 silly addNameRange   range: '>=1.3.0 <1.4.0',
+459 silly addNameRange   hasData: false }
+460 silly mapToRegistry name grunt-contrib-compress
+461 silly mapToRegistry using default registry
+462 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+463 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-compress
+464 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-compress not in flight; fetching
+465 silly cache add args [ 'grunt-contrib-concat@~1.0.1', null ]
+466 verbose cache add spec grunt-contrib-concat@~1.0.1
+467 silly cache add parsed spec Result {
+467 silly cache add   raw: 'grunt-contrib-concat@~1.0.1',
+467 silly cache add   scope: null,
+467 silly cache add   name: 'grunt-contrib-concat',
+467 silly cache add   rawSpec: '~1.0.1',
+467 silly cache add   spec: '>=1.0.1 <1.1.0',
+467 silly cache add   type: 'range' }
+468 silly addNamed grunt-contrib-concat@>=1.0.1 <1.1.0
+469 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for grunt-contrib-concat
+470 silly addNameRange { name: 'grunt-contrib-concat',
+470 silly addNameRange   range: '>=1.0.1 <1.1.0',
+470 silly addNameRange   hasData: false }
+471 silly mapToRegistry name grunt-contrib-concat
+472 silly mapToRegistry using default registry
+473 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+474 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-concat
+475 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-concat not in flight; fetching
+476 silly cache add args [ 'grunt-contrib-copy@~1.0.0', null ]
+477 verbose cache add spec grunt-contrib-copy@~1.0.0
+478 silly cache add parsed spec Result {
+478 silly cache add   raw: 'grunt-contrib-copy@~1.0.0',
+478 silly cache add   scope: null,
+478 silly cache add   name: 'grunt-contrib-copy',
+478 silly cache add   rawSpec: '~1.0.0',
+478 silly cache add   spec: '>=1.0.0 <1.1.0',
+478 silly cache add   type: 'range' }
+479 silly addNamed grunt-contrib-copy@>=1.0.0 <1.1.0
+480 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-contrib-copy
+481 silly addNameRange { name: 'grunt-contrib-copy',
+481 silly addNameRange   range: '>=1.0.0 <1.1.0',
+481 silly addNameRange   hasData: false }
+482 silly mapToRegistry name grunt-contrib-copy
+483 silly mapToRegistry using default registry
+484 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+485 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-copy
+486 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-copy not in flight; fetching
+487 silly cache add args [ 'grunt-contrib-jshint@~1.1.0', null ]
+488 verbose cache add spec grunt-contrib-jshint@~1.1.0
+489 silly cache add parsed spec Result {
+489 silly cache add   raw: 'grunt-contrib-jshint@~1.1.0',
+489 silly cache add   scope: null,
+489 silly cache add   name: 'grunt-contrib-jshint',
+489 silly cache add   rawSpec: '~1.1.0',
+489 silly cache add   spec: '>=1.1.0 <1.2.0',
+489 silly cache add   type: 'range' }
+490 silly addNamed grunt-contrib-jshint@>=1.1.0 <1.2.0
+491 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for grunt-contrib-jshint
+492 silly addNameRange { name: 'grunt-contrib-jshint',
+492 silly addNameRange   range: '>=1.1.0 <1.2.0',
+492 silly addNameRange   hasData: false }
+493 silly mapToRegistry name grunt-contrib-jshint
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+496 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-jshint
+497 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-jshint not in flight; fetching
+498 silly cache add args [ 'grunt-contrib-uglify@~2.0.0', null ]
+499 verbose cache add spec grunt-contrib-uglify@~2.0.0
+500 silly cache add parsed spec Result {
+500 silly cache add   raw: 'grunt-contrib-uglify@~2.0.0',
+500 silly cache add   scope: null,
+500 silly cache add   name: 'grunt-contrib-uglify',
+500 silly cache add   rawSpec: '~2.0.0',
+500 silly cache add   spec: '>=2.0.0 <2.1.0',
+500 silly cache add   type: 'range' }
+501 silly addNamed grunt-contrib-uglify@>=2.0.0 <2.1.0
+502 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for grunt-contrib-uglify
+503 silly addNameRange { name: 'grunt-contrib-uglify',
+503 silly addNameRange   range: '>=2.0.0 <2.1.0',
+503 silly addNameRange   hasData: false }
+504 silly mapToRegistry name grunt-contrib-uglify
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+507 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-uglify
+508 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-uglify not in flight; fetching
+509 silly cache add args [ 'grunt-contrib-watch@~1.0.0', null ]
+510 verbose cache add spec grunt-contrib-watch@~1.0.0
+511 silly cache add parsed spec Result {
+511 silly cache add   raw: 'grunt-contrib-watch@~1.0.0',
+511 silly cache add   scope: null,
+511 silly cache add   name: 'grunt-contrib-watch',
+511 silly cache add   rawSpec: '~1.0.0',
+511 silly cache add   spec: '>=1.0.0 <1.1.0',
+511 silly cache add   type: 'range' }
+512 silly addNamed grunt-contrib-watch@>=1.0.0 <1.1.0
+513 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-contrib-watch
+514 silly addNameRange { name: 'grunt-contrib-watch',
+514 silly addNameRange   range: '>=1.0.0 <1.1.0',
+514 silly addNameRange   hasData: false }
+515 silly mapToRegistry name grunt-contrib-watch
+516 silly mapToRegistry using default registry
+517 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+518 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-contrib-watch
+519 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-contrib-watch not in flight; fetching
+520 silly cache add args [ 'grunt-jsonlint@~1.1.0', null ]
+521 verbose cache add spec grunt-jsonlint@~1.1.0
+522 silly cache add parsed spec Result {
+522 silly cache add   raw: 'grunt-jsonlint@~1.1.0',
+522 silly cache add   scope: null,
+522 silly cache add   name: 'grunt-jsonlint',
+522 silly cache add   rawSpec: '~1.1.0',
+522 silly cache add   spec: '>=1.1.0 <1.2.0',
+522 silly cache add   type: 'range' }
+523 silly addNamed grunt-jsonlint@>=1.1.0 <1.2.0
+524 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for grunt-jsonlint
+525 silly addNameRange { name: 'grunt-jsonlint',
+525 silly addNameRange   range: '>=1.1.0 <1.2.0',
+525 silly addNameRange   hasData: false }
+526 silly mapToRegistry name grunt-jsonlint
+527 silly mapToRegistry using default registry
+528 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+529 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-jsonlint
+530 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-jsonlint not in flight; fetching
+531 silly cache add args [ 'grunt-nodemon@~0.4.2', null ]
+532 verbose cache add spec grunt-nodemon@~0.4.2
+533 silly cache add parsed spec Result {
+533 silly cache add   raw: 'grunt-nodemon@~0.4.2',
+533 silly cache add   scope: null,
+533 silly cache add   name: 'grunt-nodemon',
+533 silly cache add   rawSpec: '~0.4.2',
+533 silly cache add   spec: '>=0.4.2 <0.5.0',
+533 silly cache add   type: 'range' }
+534 silly addNamed grunt-nodemon@>=0.4.2 <0.5.0
+535 verbose addNamed ">=0.4.2 <0.5.0" is a valid semver range for grunt-nodemon
+536 silly addNameRange { name: 'grunt-nodemon',
+536 silly addNameRange   range: '>=0.4.2 <0.5.0',
+536 silly addNameRange   hasData: false }
+537 silly mapToRegistry name grunt-nodemon
+538 silly mapToRegistry using default registry
+539 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+540 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-nodemon
+541 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-nodemon not in flight; fetching
+542 silly cache add args [ 'grunt-sass@~1.2.1', null ]
+543 verbose cache add spec grunt-sass@~1.2.1
+544 silly cache add parsed spec Result {
+544 silly cache add   raw: 'grunt-sass@~1.2.1',
+544 silly cache add   scope: null,
+544 silly cache add   name: 'grunt-sass',
+544 silly cache add   rawSpec: '~1.2.1',
+544 silly cache add   spec: '>=1.2.1 <1.3.0',
+544 silly cache add   type: 'range' }
+545 silly addNamed grunt-sass@>=1.2.1 <1.3.0
+546 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for grunt-sass
+547 silly addNameRange { name: 'grunt-sass', range: '>=1.2.1 <1.3.0', hasData: false }
+548 silly mapToRegistry name grunt-sass
+549 silly mapToRegistry using default registry
+550 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+551 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-sass
+552 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-sass not in flight; fetching
+553 silly cache add args [ 'grunt-simple-mocha@~0.4.1', null ]
+554 verbose cache add spec grunt-simple-mocha@~0.4.1
+555 silly cache add parsed spec Result {
+555 silly cache add   raw: 'grunt-simple-mocha@~0.4.1',
+555 silly cache add   scope: null,
+555 silly cache add   name: 'grunt-simple-mocha',
+555 silly cache add   rawSpec: '~0.4.1',
+555 silly cache add   spec: '>=0.4.1 <0.5.0',
+555 silly cache add   type: 'range' }
+556 silly addNamed grunt-simple-mocha@>=0.4.1 <0.5.0
+557 verbose addNamed ">=0.4.1 <0.5.0" is a valid semver range for grunt-simple-mocha
+558 silly addNameRange { name: 'grunt-simple-mocha',
+558 silly addNameRange   range: '>=0.4.1 <0.5.0',
+558 silly addNameRange   hasData: false }
+559 silly mapToRegistry name grunt-simple-mocha
+560 silly mapToRegistry using default registry
+561 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+562 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/grunt-simple-mocha
+563 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/grunt-simple-mocha not in flight; fetching
+564 silly cache add args [ 'mocha@~3.2.0', null ]
+565 verbose cache add spec mocha@~3.2.0
+566 silly cache add parsed spec Result {
+566 silly cache add   raw: 'mocha@~3.2.0',
+566 silly cache add   scope: null,
+566 silly cache add   name: 'mocha',
+566 silly cache add   rawSpec: '~3.2.0',
+566 silly cache add   spec: '>=3.2.0 <3.3.0',
+566 silly cache add   type: 'range' }
+567 silly addNamed mocha@>=3.2.0 <3.3.0
+568 verbose addNamed ">=3.2.0 <3.3.0" is a valid semver range for mocha
+569 silly addNameRange { name: 'mocha', range: '>=3.2.0 <3.3.0', hasData: false }
+570 silly mapToRegistry name mocha
+571 silly mapToRegistry using default registry
+572 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+573 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/mocha
+574 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/mocha not in flight; fetching
+575 silly cache add args [ 'should@^8.4.0', null ]
+576 verbose cache add spec should@^8.4.0
+577 silly cache add parsed spec Result {
+577 silly cache add   raw: 'should@^8.4.0',
+577 silly cache add   scope: null,
+577 silly cache add   name: 'should',
+577 silly cache add   rawSpec: '^8.4.0',
+577 silly cache add   spec: '>=8.4.0 <9.0.0',
+577 silly cache add   type: 'range' }
+578 silly addNamed should@>=8.4.0 <9.0.0
+579 verbose addNamed ">=8.4.0 <9.0.0" is a valid semver range for should
+580 silly addNameRange { name: 'should', range: '>=8.4.0 <9.0.0', hasData: false }
+581 silly mapToRegistry name should
+582 silly mapToRegistry using default registry
+583 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+584 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/should
+585 verbose addNameRange registry:http://etc199.austin.ibm.com:4873/should not in flight; fetching
+586 silly cache add args [ 'sinon@1.17.7', null ]
+587 verbose cache add spec sinon@1.17.7
+588 silly cache add parsed spec Result {
+588 silly cache add   raw: 'sinon@1.17.7',
+588 silly cache add   scope: null,
+588 silly cache add   name: 'sinon',
+588 silly cache add   rawSpec: '1.17.7',
+588 silly cache add   spec: '1.17.7',
+588 silly cache add   type: 'version' }
+589 silly addNamed sinon@1.17.7
+590 verbose addNamed "1.17.7" is a plain semver version for sinon
+591 silly mapToRegistry name sinon
+592 silly mapToRegistry using default registry
+593 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+594 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/sinon
+595 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/sinon not in flight; fetching
+596 silly cache add args [ 'supertest@2.0.1', null ]
+597 verbose cache add spec supertest@2.0.1
+598 silly cache add parsed spec Result {
+598 silly cache add   raw: 'supertest@2.0.1',
+598 silly cache add   scope: null,
+598 silly cache add   name: 'supertest',
+598 silly cache add   rawSpec: '2.0.1',
+598 silly cache add   spec: '2.0.1',
+598 silly cache add   type: 'version' }
+599 silly addNamed supertest@2.0.1
+600 verbose addNamed "2.0.1" is a plain semver version for supertest
+601 silly mapToRegistry name supertest
+602 silly mapToRegistry using default registry
+603 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+604 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/supertest
+605 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/supertest not in flight; fetching
+606 silly cache add args [ 'basic-auth@1.1.0', null ]
+607 verbose cache add spec basic-auth@1.1.0
+608 silly cache add parsed spec Result {
+608 silly cache add   raw: 'basic-auth@1.1.0',
+608 silly cache add   scope: null,
+608 silly cache add   name: 'basic-auth',
+608 silly cache add   rawSpec: '1.1.0',
+608 silly cache add   spec: '1.1.0',
+608 silly cache add   type: 'version' }
+609 silly addNamed basic-auth@1.1.0
+610 verbose addNamed "1.1.0" is a plain semver version for basic-auth
+611 silly mapToRegistry name basic-auth
+612 silly mapToRegistry using default registry
+613 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+614 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/basic-auth
+615 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/basic-auth not in flight; fetching
+616 silly cache add args [ 'bcryptjs@2.4.0', null ]
+617 verbose cache add spec bcryptjs@2.4.0
+618 silly cache add parsed spec Result {
+618 silly cache add   raw: 'bcryptjs@2.4.0',
+618 silly cache add   scope: null,
+618 silly cache add   name: 'bcryptjs',
+618 silly cache add   rawSpec: '2.4.0',
+618 silly cache add   spec: '2.4.0',
+618 silly cache add   type: 'version' }
+619 silly addNamed bcryptjs@2.4.0
+620 verbose addNamed "2.4.0" is a plain semver version for bcryptjs
+621 silly mapToRegistry name bcryptjs
+622 silly mapToRegistry using default registry
+623 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+624 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/bcryptjs
+625 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/bcryptjs not in flight; fetching
+626 silly cache add args [ 'body-parser@1.15.2', null ]
+627 verbose cache add spec body-parser@1.15.2
+628 silly cache add parsed spec Result {
+628 silly cache add   raw: 'body-parser@1.15.2',
+628 silly cache add   scope: null,
+628 silly cache add   name: 'body-parser',
+628 silly cache add   rawSpec: '1.15.2',
+628 silly cache add   spec: '1.15.2',
+628 silly cache add   type: 'version' }
+629 silly addNamed body-parser@1.15.2
+630 verbose addNamed "1.15.2" is a plain semver version for body-parser
+631 silly mapToRegistry name body-parser
+632 silly mapToRegistry using default registry
+633 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+634 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/body-parser
+635 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/body-parser not in flight; fetching
+636 silly cache add args [ 'cheerio@0.22.0', null ]
+637 verbose cache add spec cheerio@0.22.0
+638 silly cache add parsed spec Result {
+638 silly cache add   raw: 'cheerio@0.22.0',
+638 silly cache add   scope: null,
+638 silly cache add   name: 'cheerio',
+638 silly cache add   rawSpec: '0.22.0',
+638 silly cache add   spec: '0.22.0',
+638 silly cache add   type: 'version' }
+639 silly addNamed cheerio@0.22.0
+640 verbose addNamed "0.22.0" is a plain semver version for cheerio
+641 silly mapToRegistry name cheerio
+642 silly mapToRegistry using default registry
+643 silly mapToRegistry registry http://etc199.austin.ibm.com:4873/
+644 silly mapToRegistry uri http://etc199.austin.ibm.com:4873/cheerio
+645 verbose addNameVersion registry:http://etc199.austin.ibm.com:4873/cheerio not in flight; fetching
+646 verbose request uri http://etc199.austin.ibm.com:4873/cors
+647 verbose request no auth needed
+648 info attempt registry request try #1 at 4:04:06 PM
+649 verbose request id 8939152913ea982c
+650 http request GET http://etc199.austin.ibm.com:4873/cors
+651 verbose request uri http://etc199.austin.ibm.com:4873/cron
+652 verbose request no auth needed
+653 info attempt registry request try #1 at 4:04:06 PM
+654 http request GET http://etc199.austin.ibm.com:4873/cron
+655 verbose request uri http://etc199.austin.ibm.com:4873/follow-redirects
+656 verbose request no auth needed
+657 info attempt registry request try #1 at 4:04:06 PM
+658 http request GET http://etc199.austin.ibm.com:4873/follow-redirects
+659 verbose request uri http://etc199.austin.ibm.com:4873/fs.notify
+660 verbose request no auth needed
+661 info attempt registry request try #1 at 4:04:06 PM
+662 http request GET http://etc199.austin.ibm.com:4873/fs.notify
+663 verbose request uri http://etc199.austin.ibm.com:4873/i18next
+664 verbose request no auth needed
+665 info attempt registry request try #1 at 4:04:06 PM
+666 http request GET http://etc199.austin.ibm.com:4873/i18next
+667 verbose request uri http://etc199.austin.ibm.com:4873/jsonata
+668 verbose request no auth needed
+669 info attempt registry request try #1 at 4:04:06 PM
+670 http request GET http://etc199.austin.ibm.com:4873/jsonata
+671 verbose request uri http://etc199.austin.ibm.com:4873/node-red-contrib-browser-utils
+672 verbose request no auth needed
+673 info attempt registry request try #1 at 4:04:06 PM
+674 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-browser-utils
+675 verbose request uri http://etc199.austin.ibm.com:4873/node-red-contrib-media-utils
+676 verbose request no auth needed
+677 info attempt registry request try #1 at 4:04:06 PM
+678 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-media-utils
+679 verbose request uri http://etc199.austin.ibm.com:4873/node-red-contrib-play-audio
+680 verbose request no auth needed
+681 info attempt registry request try #1 at 4:04:06 PM
+682 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-play-audio
+683 verbose request uri http://etc199.austin.ibm.com:4873/node-red-node-email
+684 verbose request no auth needed
+685 info attempt registry request try #1 at 4:04:06 PM
+686 http request GET http://etc199.austin.ibm.com:4873/node-red-node-email
+687 verbose request uri http://etc199.austin.ibm.com:4873/node-red-node-feedparser
+688 verbose request no auth needed
+689 info attempt registry request try #1 at 4:04:06 PM
+690 http request GET http://etc199.austin.ibm.com:4873/node-red-node-feedparser
+691 verbose request uri http://etc199.austin.ibm.com:4873/node-red-node-rbe
+692 verbose request no auth needed
+693 info attempt registry request try #1 at 4:04:06 PM
+694 http request GET http://etc199.austin.ibm.com:4873/node-red-node-rbe
+695 verbose request uri http://etc199.austin.ibm.com:4873/node-red-node-twitter
+696 verbose request no auth needed
+697 info attempt registry request try #1 at 4:04:06 PM
+698 http request GET http://etc199.austin.ibm.com:4873/node-red-node-twitter
+699 verbose request uri http://etc199.austin.ibm.com:4873/node-red-node-watson
+700 verbose request no auth needed
+701 info attempt registry request try #1 at 4:04:06 PM
+702 http request GET http://etc199.austin.ibm.com:4873/node-red-node-watson
+703 verbose request uri http://etc199.austin.ibm.com:4873/oauth2orize
+704 verbose request no auth needed
+705 info attempt registry request try #1 at 4:04:06 PM
+706 http request GET http://etc199.austin.ibm.com:4873/oauth2orize
+707 verbose request uri http://etc199.austin.ibm.com:4873/passport
+708 verbose request no auth needed
+709 info attempt registry request try #1 at 4:04:06 PM
+710 http request GET http://etc199.austin.ibm.com:4873/passport
+711 verbose request uri http://etc199.austin.ibm.com:4873/passport-http-bearer
+712 verbose request no auth needed
+713 info attempt registry request try #1 at 4:04:06 PM
+714 http request GET http://etc199.austin.ibm.com:4873/passport-http-bearer
+715 verbose request uri http://etc199.austin.ibm.com:4873/passport-oauth2-client-password
+716 verbose request no auth needed
+717 info attempt registry request try #1 at 4:04:06 PM
+718 http request GET http://etc199.austin.ibm.com:4873/passport-oauth2-client-password
+719 verbose request uri http://etc199.austin.ibm.com:4873/sentiment
+720 verbose request no auth needed
+721 info attempt registry request try #1 at 4:04:06 PM
+722 http request GET http://etc199.austin.ibm.com:4873/sentiment
+723 verbose request uri http://etc199.austin.ibm.com:4873/when
+724 verbose request no auth needed
+725 info attempt registry request try #1 at 4:04:06 PM
+726 http request GET http://etc199.austin.ibm.com:4873/when
+727 verbose request uri http://etc199.austin.ibm.com:4873/bcrypt
+728 verbose request no auth needed
+729 info attempt registry request try #1 at 4:04:06 PM
+730 http request GET http://etc199.austin.ibm.com:4873/bcrypt
+731 verbose request uri http://etc199.austin.ibm.com:4873/grunt
+732 verbose request no auth needed
+733 info attempt registry request try #1 at 4:04:06 PM
+734 http request GET http://etc199.austin.ibm.com:4873/grunt
+735 verbose request uri http://etc199.austin.ibm.com:4873/grunt-chmod
+736 verbose request no auth needed
+737 info attempt registry request try #1 at 4:04:06 PM
+738 http request GET http://etc199.austin.ibm.com:4873/grunt-chmod
+739 verbose request uri http://etc199.austin.ibm.com:4873/grunt-cli
+740 verbose request no auth needed
+741 info attempt registry request try #1 at 4:04:06 PM
+742 http request GET http://etc199.austin.ibm.com:4873/grunt-cli
+743 verbose request uri http://etc199.austin.ibm.com:4873/grunt-concurrent
+744 verbose request no auth needed
+745 info attempt registry request try #1 at 4:04:06 PM
+746 http request GET http://etc199.austin.ibm.com:4873/grunt-concurrent
+747 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-clean
+748 verbose request no auth needed
+749 info attempt registry request try #1 at 4:04:06 PM
+750 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-clean
+751 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-compress
+752 verbose request no auth needed
+753 info attempt registry request try #1 at 4:04:06 PM
+754 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-compress
+755 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-concat
+756 verbose request no auth needed
+757 info attempt registry request try #1 at 4:04:06 PM
+758 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-concat
+759 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-copy
+760 verbose request no auth needed
+761 info attempt registry request try #1 at 4:04:06 PM
+762 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-copy
+763 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-jshint
+764 verbose request no auth needed
+765 info attempt registry request try #1 at 4:04:06 PM
+766 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-jshint
+767 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-uglify
+768 verbose request no auth needed
+769 info attempt registry request try #1 at 4:04:06 PM
+770 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-uglify
+771 verbose request uri http://etc199.austin.ibm.com:4873/grunt-contrib-watch
+772 verbose request no auth needed
+773 info attempt registry request try #1 at 4:04:06 PM
+774 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-watch
+775 verbose request uri http://etc199.austin.ibm.com:4873/grunt-jsonlint
+776 verbose request no auth needed
+777 info attempt registry request try #1 at 4:04:06 PM
+778 http request GET http://etc199.austin.ibm.com:4873/grunt-jsonlint
+779 verbose request uri http://etc199.austin.ibm.com:4873/grunt-nodemon
+780 verbose request no auth needed
+781 info attempt registry request try #1 at 4:04:06 PM
+782 http request GET http://etc199.austin.ibm.com:4873/grunt-nodemon
+783 verbose request uri http://etc199.austin.ibm.com:4873/grunt-sass
+784 verbose request no auth needed
+785 info attempt registry request try #1 at 4:04:06 PM
+786 http request GET http://etc199.austin.ibm.com:4873/grunt-sass
+787 verbose request uri http://etc199.austin.ibm.com:4873/grunt-simple-mocha
+788 verbose request no auth needed
+789 info attempt registry request try #1 at 4:04:06 PM
+790 http request GET http://etc199.austin.ibm.com:4873/grunt-simple-mocha
+791 verbose request uri http://etc199.austin.ibm.com:4873/should
+792 verbose request no auth needed
+793 info attempt registry request try #1 at 4:04:06 PM
+794 http request GET http://etc199.austin.ibm.com:4873/should
+795 verbose request uri http://etc199.austin.ibm.com:4873/bcryptjs
+796 verbose request no auth needed
+797 info attempt registry request try #1 at 4:04:06 PM
+798 http request GET http://etc199.austin.ibm.com:4873/bcryptjs
+799 verbose request uri http://etc199.austin.ibm.com:4873/cheerio
+800 verbose request no auth needed
+801 info attempt registry request try #1 at 4:04:06 PM
+802 http request GET http://etc199.austin.ibm.com:4873/cheerio
+803 verbose request uri http://etc199.austin.ibm.com:4873/clone
+804 verbose request no auth needed
+805 info attempt registry request try #1 at 4:04:06 PM
+806 verbose etag "db2672b083a9dd7117392f1d66bbfae0"
+807 http request GET http://etc199.austin.ibm.com:4873/clone
+808 verbose request uri http://etc199.austin.ibm.com:4873/cookie-parser
+809 verbose request no auth needed
+810 info attempt registry request try #1 at 4:04:06 PM
+811 verbose etag "f16187287d58478051bc6073fcfe7c23"
+812 http request GET http://etc199.austin.ibm.com:4873/cookie-parser
+813 verbose request uri http://etc199.austin.ibm.com:4873/is-utf8
+814 verbose request no auth needed
+815 info attempt registry request try #1 at 4:04:06 PM
+816 verbose etag "06ba5c22033b3195724301fea27ed268"
+817 http request GET http://etc199.austin.ibm.com:4873/is-utf8
+818 verbose request uri http://etc199.austin.ibm.com:4873/fs-extra
+819 verbose request no auth needed
+820 info attempt registry request try #1 at 4:04:06 PM
+821 verbose etag "454dd72df20bdc813d799413ae763c5b"
+822 http request GET http://etc199.austin.ibm.com:4873/fs-extra
+823 verbose request uri http://etc199.austin.ibm.com:4873/json-stringify-safe
+824 verbose request no auth needed
+825 info attempt registry request try #1 at 4:04:06 PM
+826 verbose etag "b299ff63946e55d00a91bf57320a1e15"
+827 http request GET http://etc199.austin.ibm.com:4873/json-stringify-safe
+828 verbose request uri http://etc199.austin.ibm.com:4873/media-typer
+829 verbose request no auth needed
+830 info attempt registry request try #1 at 4:04:06 PM
+831 verbose etag "51a7e16e4d516fc8bc35875d4ff32012"
+832 http request GET http://etc199.austin.ibm.com:4873/media-typer
+833 verbose request uri http://etc199.austin.ibm.com:4873/express
+834 verbose request no auth needed
+835 info attempt registry request try #1 at 4:04:06 PM
+836 verbose etag "dbbca76baafcdf919523b2e709ba8bc3"
+837 http request GET http://etc199.austin.ibm.com:4873/express
+838 verbose request uri http://etc199.austin.ibm.com:4873/js-yaml
+839 verbose request no auth needed
+840 info attempt registry request try #1 at 4:04:06 PM
+841 verbose etag "953dbf14064ff521f985878a5f1fdc0b"
+842 http request GET http://etc199.austin.ibm.com:4873/js-yaml
+843 verbose request uri http://etc199.austin.ibm.com:4873/mustache
+844 verbose request no auth needed
+845 info attempt registry request try #1 at 4:04:06 PM
+846 verbose etag "28880c18f38cbbef473be40dfbcab7c7"
+847 http request GET http://etc199.austin.ibm.com:4873/mustache
+848 verbose request uri http://etc199.austin.ibm.com:4873/on-headers
+849 verbose request no auth needed
+850 info attempt registry request try #1 at 4:04:06 PM
+851 verbose etag "88c70bbf37e87b45141a4f436cebe4ad"
+852 http request GET http://etc199.austin.ibm.com:4873/on-headers
+853 verbose request uri http://etc199.austin.ibm.com:4873/mqtt
+854 verbose request no auth needed
+855 info attempt registry request try #1 at 4:04:06 PM
+856 verbose etag "51889ff524d7855a862b9e9308f3f4f2"
+857 http request GET http://etc199.austin.ibm.com:4873/mqtt
+858 verbose request uri http://etc199.austin.ibm.com:4873/nopt
+859 verbose request no auth needed
+860 info attempt registry request try #1 at 4:04:06 PM
+861 verbose etag "0f980e26caecb5ff21f332542c7334cc"
+862 http request GET http://etc199.austin.ibm.com:4873/nopt
+863 verbose request uri http://etc199.austin.ibm.com:4873/raw-body
+864 verbose request no auth needed
+865 info attempt registry request try #1 at 4:04:06 PM
+866 verbose etag "321bec13c96257375451b6c070e03d59"
+867 http request GET http://etc199.austin.ibm.com:4873/raw-body
+868 verbose request uri http://etc199.austin.ibm.com:4873/semver
+869 verbose request no auth needed
+870 info attempt registry request try #1 at 4:04:06 PM
+871 verbose etag "444847fc396e6da673898b9eafd9257f"
+872 http request GET http://etc199.austin.ibm.com:4873/semver
+873 verbose request uri http://etc199.austin.ibm.com:4873/uglify-js
+874 verbose request no auth needed
+875 info attempt registry request try #1 at 4:04:06 PM
+876 verbose etag "c9c755e886dde3c98e47ea791f161e72"
+877 http request GET http://etc199.austin.ibm.com:4873/uglify-js
+878 verbose request uri http://etc199.austin.ibm.com:4873/ws
+879 verbose request no auth needed
+880 info attempt registry request try #1 at 4:04:06 PM
+881 verbose etag "edd4182ab66c1245c68e5cc9f545145b"
+882 http request GET http://etc199.austin.ibm.com:4873/ws
+883 verbose request uri http://etc199.austin.ibm.com:4873/xml2js
+884 verbose request no auth needed
+885 info attempt registry request try #1 at 4:04:06 PM
+886 verbose etag "da7e12af4c33f5797e43f341829f9bef"
+887 http request GET http://etc199.austin.ibm.com:4873/xml2js
+888 verbose request uri http://etc199.austin.ibm.com:4873/supertest
+889 verbose request no auth needed
+890 info attempt registry request try #1 at 4:04:06 PM
+891 verbose etag "996076cec75062a41eab2629ec5a9642"
+892 http request GET http://etc199.austin.ibm.com:4873/supertest
+893 verbose request uri http://etc199.austin.ibm.com:4873/mocha
+894 verbose request no auth needed
+895 info attempt registry request try #1 at 4:04:06 PM
+896 verbose etag "687dfa8124e0b930d76582ab2a9e5538"
+897 http request GET http://etc199.austin.ibm.com:4873/mocha
+898 verbose request uri http://etc199.austin.ibm.com:4873/body-parser
+899 verbose request no auth needed
+900 info attempt registry request try #1 at 4:04:06 PM
+901 verbose etag "ef1e5b9f1e552d03d41052219ff5e60a"
+902 http request GET http://etc199.austin.ibm.com:4873/body-parser
+903 verbose request uri http://etc199.austin.ibm.com:4873/basic-auth
+904 verbose request no auth needed
+905 info attempt registry request try #1 at 4:04:06 PM
+906 verbose etag "b16a3baa6e3f6a808a9d09c352028a44"
+907 http request GET http://etc199.austin.ibm.com:4873/basic-auth
+908 verbose request uri http://etc199.austin.ibm.com:4873/sinon
+909 verbose request no auth needed
+910 info attempt registry request try #1 at 4:04:06 PM
+911 verbose etag "71219f31ffa38c090ff029025fb2bef7"
+912 http request GET http://etc199.austin.ibm.com:4873/sinon
+913 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+914 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+915 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+916 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+917 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+918 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+919 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+920 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+921 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+922 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+923 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+924 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+925 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+926 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+927 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+928 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+929 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+930 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+931 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+932 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+933 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+934 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+935 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+936 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+937 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+938 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+939 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+940 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+941 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+942 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+943 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+944 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+945 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+946 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+947 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+948 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+949 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+950 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+951 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+952 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+953 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+954 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+955 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+956 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+957 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+958 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+959 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+960 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+961 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+962 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+963 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+964 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+965 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+966 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+967 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+968 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+969 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+970 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+971 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+972 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+973 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+974 info attempt registry request try #2 at 4:05:35 PM
+975 http request GET http://etc199.austin.ibm.com:4873/follow-redirects
+976 info attempt registry request try #2 at 4:05:35 PM
+977 http request GET http://etc199.austin.ibm.com:4873/cron
+978 info attempt registry request try #2 at 4:05:35 PM
+979 http request GET http://etc199.austin.ibm.com:4873/fs.notify
+980 info attempt registry request try #2 at 4:05:35 PM
+981 http request GET http://etc199.austin.ibm.com:4873/jsonata
+982 info attempt registry request try #2 at 4:05:35 PM
+983 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-browser-utils
+984 info attempt registry request try #2 at 4:05:35 PM
+985 http request GET http://etc199.austin.ibm.com:4873/i18next
+986 info attempt registry request try #2 at 4:05:35 PM
+987 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-media-utils
+988 info attempt registry request try #2 at 4:05:35 PM
+989 http request GET http://etc199.austin.ibm.com:4873/cors
+990 info attempt registry request try #2 at 4:05:35 PM
+991 http request GET http://etc199.austin.ibm.com:4873/node-red-node-feedparser
+992 info attempt registry request try #2 at 4:05:35 PM
+993 http request GET http://etc199.austin.ibm.com:4873/node-red-node-rbe
+994 info attempt registry request try #2 at 4:05:35 PM
+995 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-play-audio
+996 info attempt registry request try #2 at 4:05:35 PM
+997 http request GET http://etc199.austin.ibm.com:4873/node-red-node-email
+998 info attempt registry request try #2 at 4:05:35 PM
+999 http request GET http://etc199.austin.ibm.com:4873/oauth2orize
+1000 info attempt registry request try #2 at 4:05:35 PM
+1001 http request GET http://etc199.austin.ibm.com:4873/passport
+1002 info attempt registry request try #2 at 4:05:35 PM
+1003 http request GET http://etc199.austin.ibm.com:4873/node-red-node-watson
+1004 info attempt registry request try #2 at 4:05:35 PM
+1005 http request GET http://etc199.austin.ibm.com:4873/node-red-node-twitter
+1006 info attempt registry request try #2 at 4:05:35 PM
+1007 http request GET http://etc199.austin.ibm.com:4873/passport-oauth2-client-password
+1008 info attempt registry request try #2 at 4:05:35 PM
+1009 http request GET http://etc199.austin.ibm.com:4873/passport-http-bearer
+1010 info attempt registry request try #2 at 4:05:35 PM
+1011 http request GET http://etc199.austin.ibm.com:4873/sentiment
+1012 info attempt registry request try #2 at 4:05:35 PM
+1013 http request GET http://etc199.austin.ibm.com:4873/when
+1014 info attempt registry request try #2 at 4:05:35 PM
+1015 http request GET http://etc199.austin.ibm.com:4873/grunt
+1016 info attempt registry request try #2 at 4:05:35 PM
+1017 http request GET http://etc199.austin.ibm.com:4873/grunt-cli
+1018 info attempt registry request try #2 at 4:05:35 PM
+1019 http request GET http://etc199.austin.ibm.com:4873/grunt-chmod
+1020 info attempt registry request try #2 at 4:05:35 PM
+1021 http request GET http://etc199.austin.ibm.com:4873/bcrypt
+1022 info attempt registry request try #2 at 4:05:35 PM
+1023 http request GET http://etc199.austin.ibm.com:4873/grunt-concurrent
+1024 info attempt registry request try #2 at 4:05:35 PM
+1025 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-clean
+1026 info attempt registry request try #2 at 4:05:35 PM
+1027 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-concat
+1028 info attempt registry request try #2 at 4:05:35 PM
+1029 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-compress
+1030 info attempt registry request try #2 at 4:05:35 PM
+1031 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-copy
+1032 info attempt registry request try #2 at 4:05:35 PM
+1033 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-jshint
+1034 info attempt registry request try #2 at 4:05:35 PM
+1035 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-watch
+1036 info attempt registry request try #2 at 4:05:35 PM
+1037 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-uglify
+1038 info attempt registry request try #2 at 4:05:35 PM
+1039 http request GET http://etc199.austin.ibm.com:4873/grunt-nodemon
+1040 info attempt registry request try #2 at 4:05:35 PM
+1041 http request GET http://etc199.austin.ibm.com:4873/grunt-jsonlint
+1042 info attempt registry request try #2 at 4:05:35 PM
+1043 http request GET http://etc199.austin.ibm.com:4873/grunt-sass
+1044 info attempt registry request try #2 at 4:05:35 PM
+1045 http request GET http://etc199.austin.ibm.com:4873/grunt-simple-mocha
+1046 info attempt registry request try #2 at 4:05:35 PM
+1047 http request GET http://etc199.austin.ibm.com:4873/cheerio
+1048 info attempt registry request try #2 at 4:05:35 PM
+1049 http request GET http://etc199.austin.ibm.com:4873/should
+1050 info attempt registry request try #2 at 4:05:35 PM
+1051 http request GET http://etc199.austin.ibm.com:4873/bcryptjs
+1052 info attempt registry request try #2 at 4:05:35 PM
+1053 verbose etag "db2672b083a9dd7117392f1d66bbfae0"
+1054 http request GET http://etc199.austin.ibm.com:4873/clone
+1055 info attempt registry request try #2 at 4:05:35 PM
+1056 verbose etag "f16187287d58478051bc6073fcfe7c23"
+1057 http request GET http://etc199.austin.ibm.com:4873/cookie-parser
+1058 info attempt registry request try #2 at 4:05:35 PM
+1059 verbose etag "321bec13c96257375451b6c070e03d59"
+1060 http request GET http://etc199.austin.ibm.com:4873/raw-body
+1061 info attempt registry request try #2 at 4:05:35 PM
+1062 verbose etag "444847fc396e6da673898b9eafd9257f"
+1063 http request GET http://etc199.austin.ibm.com:4873/semver
+1064 info attempt registry request try #2 at 4:05:35 PM
+1065 verbose etag "c9c755e886dde3c98e47ea791f161e72"
+1066 http request GET http://etc199.austin.ibm.com:4873/uglify-js
+1067 info attempt registry request try #2 at 4:05:35 PM
+1068 verbose etag "0f980e26caecb5ff21f332542c7334cc"
+1069 http request GET http://etc199.austin.ibm.com:4873/nopt
+1070 info attempt registry request try #2 at 4:05:35 PM
+1071 verbose etag "28880c18f38cbbef473be40dfbcab7c7"
+1072 http request GET http://etc199.austin.ibm.com:4873/mustache
+1073 info attempt registry request try #2 at 4:05:35 PM
+1074 verbose etag "88c70bbf37e87b45141a4f436cebe4ad"
+1075 http request GET http://etc199.austin.ibm.com:4873/on-headers
+1076 info attempt registry request try #2 at 4:05:35 PM
+1077 verbose etag "51889ff524d7855a862b9e9308f3f4f2"
+1078 http request GET http://etc199.austin.ibm.com:4873/mqtt
+1079 info attempt registry request try #2 at 4:05:35 PM
+1080 verbose etag "953dbf14064ff521f985878a5f1fdc0b"
+1081 http request GET http://etc199.austin.ibm.com:4873/js-yaml
+1082 info attempt registry request try #2 at 4:05:35 PM
+1083 verbose etag "dbbca76baafcdf919523b2e709ba8bc3"
+1084 http request GET http://etc199.austin.ibm.com:4873/express
+1085 info attempt registry request try #2 at 4:05:35 PM
+1086 verbose etag "454dd72df20bdc813d799413ae763c5b"
+1087 http request GET http://etc199.austin.ibm.com:4873/fs-extra
+1088 info attempt registry request try #2 at 4:05:35 PM
+1089 verbose etag "b299ff63946e55d00a91bf57320a1e15"
+1090 http request GET http://etc199.austin.ibm.com:4873/json-stringify-safe
+1091 info attempt registry request try #2 at 4:05:35 PM
+1092 verbose etag "51a7e16e4d516fc8bc35875d4ff32012"
+1093 http request GET http://etc199.austin.ibm.com:4873/media-typer
+1094 info attempt registry request try #2 at 4:05:35 PM
+1095 verbose etag "06ba5c22033b3195724301fea27ed268"
+1096 http request GET http://etc199.austin.ibm.com:4873/is-utf8
+1097 info attempt registry request try #2 at 4:05:35 PM
+1098 verbose etag "ef1e5b9f1e552d03d41052219ff5e60a"
+1099 http request GET http://etc199.austin.ibm.com:4873/body-parser
+1100 info attempt registry request try #2 at 4:05:35 PM
+1101 verbose etag "71219f31ffa38c090ff029025fb2bef7"
+1102 http request GET http://etc199.austin.ibm.com:4873/sinon
+1103 info attempt registry request try #2 at 4:05:35 PM
+1104 verbose etag "b16a3baa6e3f6a808a9d09c352028a44"
+1105 http request GET http://etc199.austin.ibm.com:4873/basic-auth
+1106 info attempt registry request try #2 at 4:05:35 PM
+1107 verbose etag "687dfa8124e0b930d76582ab2a9e5538"
+1108 http request GET http://etc199.austin.ibm.com:4873/mocha
+1109 info attempt registry request try #2 at 4:05:35 PM
+1110 verbose etag "edd4182ab66c1245c68e5cc9f545145b"
+1111 http request GET http://etc199.austin.ibm.com:4873/ws
+1112 info attempt registry request try #2 at 4:05:35 PM
+1113 verbose etag "da7e12af4c33f5797e43f341829f9bef"
+1114 http request GET http://etc199.austin.ibm.com:4873/xml2js
+1115 info attempt registry request try #2 at 4:05:35 PM
+1116 verbose etag "996076cec75062a41eab2629ec5a9642"
+1117 http request GET http://etc199.austin.ibm.com:4873/supertest
+1118 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1119 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1120 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1121 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1122 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1123 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1124 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1125 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1126 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1127 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1128 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1129 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1130 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1131 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1132 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1133 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1134 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1135 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1136 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1137 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1138 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1139 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1140 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1141 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1142 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1143 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1144 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1145 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1146 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1147 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1148 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1149 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1150 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1151 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1152 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1153 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1154 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1155 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1156 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1157 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1158 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1159 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1160 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1161 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1162 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1163 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1164 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1165 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1166 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1167 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1168 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1169 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1170 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1171 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1172 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1173 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1174 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1175 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1176 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1177 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1178 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 9.3.11.199:4873
+1179 info attempt registry request try #3 at 4:07:52 PM
+1180 http request GET http://etc199.austin.ibm.com:4873/follow-redirects
+1181 info attempt registry request try #3 at 4:07:53 PM
+1182 http request GET http://etc199.austin.ibm.com:4873/cors
+1183 info attempt registry request try #3 at 4:07:53 PM
+1184 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-media-utils
+1185 info attempt registry request try #3 at 4:07:53 PM
+1186 http request GET http://etc199.austin.ibm.com:4873/node-red-node-feedparser
+1187 info attempt registry request try #3 at 4:07:53 PM
+1188 http request GET http://etc199.austin.ibm.com:4873/i18next
+1189 info attempt registry request try #3 at 4:07:53 PM
+1190 http request GET http://etc199.austin.ibm.com:4873/fs.notify
+1191 info attempt registry request try #3 at 4:07:53 PM
+1192 http request GET http://etc199.austin.ibm.com:4873/cron
+1193 info attempt registry request try #3 at 4:07:53 PM
+1194 http request GET http://etc199.austin.ibm.com:4873/jsonata
+1195 info attempt registry request try #3 at 4:07:53 PM
+1196 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-browser-utils
+1197 info attempt registry request try #3 at 4:07:53 PM
+1198 http request GET http://etc199.austin.ibm.com:4873/grunt-cli
+1199 info attempt registry request try #3 at 4:07:53 PM
+1200 http request GET http://etc199.austin.ibm.com:4873/grunt-concurrent
+1201 info attempt registry request try #3 at 4:07:53 PM
+1202 http request GET http://etc199.austin.ibm.com:4873/grunt-chmod
+1203 info attempt registry request try #3 at 4:07:53 PM
+1204 http request GET http://etc199.austin.ibm.com:4873/bcrypt
+1205 info attempt registry request try #3 at 4:07:53 PM
+1206 http request GET http://etc199.austin.ibm.com:4873/when
+1207 info attempt registry request try #3 at 4:07:53 PM
+1208 http request GET http://etc199.austin.ibm.com:4873/sentiment
+1209 info attempt registry request try #3 at 4:07:53 PM
+1210 http request GET http://etc199.austin.ibm.com:4873/passport-http-bearer
+1211 info attempt registry request try #3 at 4:07:53 PM
+1212 http request GET http://etc199.austin.ibm.com:4873/grunt
+1213 info attempt registry request try #3 at 4:07:53 PM
+1214 http request GET http://etc199.austin.ibm.com:4873/passport
+1215 info attempt registry request try #3 at 4:07:53 PM
+1216 http request GET http://etc199.austin.ibm.com:4873/node-red-node-watson
+1217 info attempt registry request try #3 at 4:07:53 PM
+1218 http request GET http://etc199.austin.ibm.com:4873/node-red-node-twitter
+1219 info attempt registry request try #3 at 4:07:53 PM
+1220 http request GET http://etc199.austin.ibm.com:4873/passport-oauth2-client-password
+1221 info attempt registry request try #3 at 4:07:53 PM
+1222 http request GET http://etc199.austin.ibm.com:4873/oauth2orize
+1223 info attempt registry request try #3 at 4:07:53 PM
+1224 http request GET http://etc199.austin.ibm.com:4873/node-red-contrib-play-audio
+1225 info attempt registry request try #3 at 4:07:53 PM
+1226 http request GET http://etc199.austin.ibm.com:4873/node-red-node-email
+1227 info attempt registry request try #3 at 4:07:53 PM
+1228 http request GET http://etc199.austin.ibm.com:4873/node-red-node-rbe
+1229 info attempt registry request try #3 at 4:07:53 PM
+1230 http request GET http://etc199.austin.ibm.com:4873/should
+1231 info attempt registry request try #3 at 4:07:53 PM
+1232 http request GET http://etc199.austin.ibm.com:4873/bcryptjs
+1233 info attempt registry request try #3 at 4:07:53 PM
+1234 http request GET http://etc199.austin.ibm.com:4873/grunt-sass
+1235 info attempt registry request try #3 at 4:07:53 PM
+1236 http request GET http://etc199.austin.ibm.com:4873/grunt-simple-mocha
+1237 info attempt registry request try #3 at 4:07:53 PM
+1238 http request GET http://etc199.austin.ibm.com:4873/cheerio
+1239 info attempt registry request try #3 at 4:07:53 PM
+1240 http request GET http://etc199.austin.ibm.com:4873/grunt-jsonlint
+1241 info attempt registry request try #3 at 4:07:53 PM
+1242 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-watch
+1243 info attempt registry request try #3 at 4:07:53 PM
+1244 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-jshint
+1245 info attempt registry request try #3 at 4:07:53 PM
+1246 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-uglify
+1247 info attempt registry request try #3 at 4:07:53 PM
+1248 http request GET http://etc199.austin.ibm.com:4873/grunt-nodemon
+1249 info attempt registry request try #3 at 4:07:53 PM
+1250 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-clean
+1251 info attempt registry request try #3 at 4:07:53 PM
+1252 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-compress
+1253 info attempt registry request try #3 at 4:07:53 PM
+1254 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-concat
+1255 info attempt registry request try #3 at 4:07:53 PM
+1256 http request GET http://etc199.austin.ibm.com:4873/grunt-contrib-copy
+1257 info attempt registry request try #3 at 4:07:53 PM
+1258 verbose etag "f16187287d58478051bc6073fcfe7c23"
+1259 http request GET http://etc199.austin.ibm.com:4873/cookie-parser
+1260 info attempt registry request try #3 at 4:07:53 PM
+1261 verbose etag "db2672b083a9dd7117392f1d66bbfae0"
+1262 http request GET http://etc199.austin.ibm.com:4873/clone
+1263 info attempt registry request try #3 at 4:07:53 PM
+1264 verbose etag "454dd72df20bdc813d799413ae763c5b"
+1265 http request GET http://etc199.austin.ibm.com:4873/fs-extra
+1266 info attempt registry request try #3 at 4:07:53 PM
+1267 verbose etag "dbbca76baafcdf919523b2e709ba8bc3"
+1268 http request GET http://etc199.austin.ibm.com:4873/express
+1269 info attempt registry request try #3 at 4:07:53 PM
+1270 verbose etag "b299ff63946e55d00a91bf57320a1e15"
+1271 http request GET http://etc199.austin.ibm.com:4873/json-stringify-safe
+1272 info attempt registry request try #3 at 4:07:53 PM
+1273 verbose etag "51a7e16e4d516fc8bc35875d4ff32012"
+1274 http request GET http://etc199.austin.ibm.com:4873/media-typer
+1275 info attempt registry request try #3 at 4:07:53 PM
+1276 verbose etag "953dbf14064ff521f985878a5f1fdc0b"
+1277 http request GET http://etc199.austin.ibm.com:4873/js-yaml
+1278 info attempt registry request try #3 at 4:07:53 PM
+1279 verbose etag "28880c18f38cbbef473be40dfbcab7c7"
+1280 http request GET http://etc199.austin.ibm.com:4873/mustache
+1281 info attempt registry request try #3 at 4:07:53 PM
+1282 verbose etag "88c70bbf37e87b45141a4f436cebe4ad"
+1283 http request GET http://etc199.austin.ibm.com:4873/on-headers
+1284 info attempt registry request try #3 at 4:07:53 PM
+1285 verbose etag "51889ff524d7855a862b9e9308f3f4f2"
+1286 http request GET http://etc199.austin.ibm.com:4873/mqtt
+1287 info attempt registry request try #3 at 4:07:53 PM
+1288 verbose etag "321bec13c96257375451b6c070e03d59"
+1289 http request GET http://etc199.austin.ibm.com:4873/raw-body
+1290 info attempt registry request try #3 at 4:07:53 PM
+1291 verbose etag "c9c755e886dde3c98e47ea791f161e72"
+1292 http request GET http://etc199.austin.ibm.com:4873/uglify-js
+1293 info attempt registry request try #3 at 4:07:53 PM
+1294 verbose etag "0f980e26caecb5ff21f332542c7334cc"
+1295 http request GET http://etc199.austin.ibm.com:4873/nopt
+1296 info attempt registry request try #3 at 4:07:53 PM
+1297 verbose etag "444847fc396e6da673898b9eafd9257f"
+1298 http request GET http://etc199.austin.ibm.com:4873/semver
+1299 info attempt registry request try #3 at 4:07:53 PM
+1300 verbose etag "996076cec75062a41eab2629ec5a9642"
+1301 http request GET http://etc199.austin.ibm.com:4873/supertest
+1302 info attempt registry request try #3 at 4:07:53 PM
+1303 verbose etag "da7e12af4c33f5797e43f341829f9bef"
+1304 http request GET http://etc199.austin.ibm.com:4873/xml2js
+1305 info attempt registry request try #3 at 4:07:53 PM
+1306 verbose etag "edd4182ab66c1245c68e5cc9f545145b"
+1307 http request GET http://etc199.austin.ibm.com:4873/ws
+1308 info attempt registry request try #3 at 4:07:53 PM
+1309 verbose etag "687dfa8124e0b930d76582ab2a9e5538"
+1310 http request GET http://etc199.austin.ibm.com:4873/mocha
+1311 info attempt registry request try #3 at 4:07:53 PM
+1312 verbose etag "06ba5c22033b3195724301fea27ed268"
+1313 http request GET http://etc199.austin.ibm.com:4873/is-utf8
+1314 info attempt registry request try #3 at 4:07:53 PM
+1315 verbose etag "ef1e5b9f1e552d03d41052219ff5e60a"
+1316 http request GET http://etc199.austin.ibm.com:4873/body-parser
+1317 info attempt registry request try #3 at 4:07:53 PM
+1318 verbose etag "71219f31ffa38c090ff029025fb2bef7"
+1319 http request GET http://etc199.austin.ibm.com:4873/sinon
+1320 info attempt registry request try #3 at 4:07:53 PM
+1321 verbose etag "b16a3baa6e3f6a808a9d09c352028a44"
+1322 http request GET http://etc199.austin.ibm.com:4873/basic-auth
+1323 warn optional dep failed, continuing bcrypt@~1.0.1
+1324 verbose optional dep failed, continuing [ 'bcrypt@~1.0.1',
+1324 verbose optional dep failed, continuing   { [Error: connect ETIMEDOUT 9.3.11.199:4873]
+1324 verbose optional dep failed, continuing     code: 'ETIMEDOUT',
+1324 verbose optional dep failed, continuing     errno: 'ETIMEDOUT',
+1324 verbose optional dep failed, continuing     syscall: 'connect',
+1324 verbose optional dep failed, continuing     address: '9.3.11.199',
+1324 verbose optional dep failed, continuing     port: 4873 } ]
+1325 silly get cb [ 304, undefined ]
+1326 verbose etag http://etc199.austin.ibm.com:4873/clone from cache
+1327 verbose get saving clone to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/clone/.cache.json
+1328 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1329 silly get cb [ 304, undefined ]
+1330 verbose etag http://etc199.austin.ibm.com:4873/cookie-parser from cache
+1331 verbose get saving cookie-parser to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/cookie-parser/.cache.json
+1332 verbose correctMkdir /Users/lebrun/.npm correctMkdir already in flight; waiting
+1333 silly cache afterAdd cookie-parser@1.4.3
+1334 verbose afterAdd /Users/lebrun/.npm/cookie-parser/1.4.3/package/package.json not in flight; writing
+1335 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1336 silly cache afterAdd clone@2.1.0
+1337 verbose afterAdd /Users/lebrun/.npm/clone/2.1.0/package/package.json not in flight; writing
+1338 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1339 verbose afterAdd /Users/lebrun/.npm/cookie-parser/1.4.3/package/package.json written
+1340 verbose afterAdd /Users/lebrun/.npm/clone/2.1.0/package/package.json written
+1341 silly get cb [ 304, undefined ]
+1342 verbose etag http://etc199.austin.ibm.com:4873/mocha from cache
+1343 verbose get saving mocha to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/mocha/.cache.json
+1344 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1345 silly get cb [ 304, undefined ]
+1346 verbose etag http://etc199.austin.ibm.com:4873/xml2js from cache
+1347 verbose get saving xml2js to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/xml2js/.cache.json
+1348 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1349 silly get cb [ 304, undefined ]
+1350 verbose etag http://etc199.austin.ibm.com:4873/raw-body from cache
+1351 verbose get saving raw-body to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/raw-body/.cache.json
+1352 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1353 silly get cb [ 304, undefined ]
+1354 verbose etag http://etc199.austin.ibm.com:4873/semver from cache
+1355 verbose get saving semver to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/semver/.cache.json
+1356 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1357 silly get cb [ 304, undefined ]
+1358 verbose etag http://etc199.austin.ibm.com:4873/nopt from cache
+1359 verbose get saving nopt to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/nopt/.cache.json
+1360 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1361 silly get cb [ 304, undefined ]
+1362 verbose etag http://etc199.austin.ibm.com:4873/uglify-js from cache
+1363 verbose get saving uglify-js to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/uglify-js/.cache.json
+1364 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1365 silly get cb [ 304, undefined ]
+1366 verbose etag http://etc199.austin.ibm.com:4873/mqtt from cache
+1367 verbose get saving mqtt to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/mqtt/.cache.json
+1368 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1369 silly get cb [ 304, undefined ]
+1370 verbose etag http://etc199.austin.ibm.com:4873/mustache from cache
+1371 verbose get saving mustache to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/mustache/.cache.json
+1372 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1373 silly get cb [ 304, undefined ]
+1374 verbose etag http://etc199.austin.ibm.com:4873/on-headers from cache
+1375 verbose get saving on-headers to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/on-headers/.cache.json
+1376 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1377 silly get cb [ 304, undefined ]
+1378 verbose etag http://etc199.austin.ibm.com:4873/js-yaml from cache
+1379 verbose get saving js-yaml to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/js-yaml/.cache.json
+1380 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1381 silly get cb [ 304, undefined ]
+1382 verbose etag http://etc199.austin.ibm.com:4873/media-typer from cache
+1383 verbose get saving media-typer to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/media-typer/.cache.json
+1384 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1385 silly get cb [ 304, undefined ]
+1386 verbose etag http://etc199.austin.ibm.com:4873/json-stringify-safe from cache
+1387 verbose get saving json-stringify-safe to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/json-stringify-safe/.cache.json
+1388 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1389 silly get cb [ 304, undefined ]
+1390 verbose etag http://etc199.austin.ibm.com:4873/fs-extra from cache
+1391 verbose get saving fs-extra to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/fs-extra/.cache.json
+1392 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1393 silly get cb [ 304, undefined ]
+1394 verbose etag http://etc199.austin.ibm.com:4873/express from cache
+1395 verbose get saving express to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/express/.cache.json
+1396 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1397 silly get cb [ 304, undefined ]
+1398 verbose etag http://etc199.austin.ibm.com:4873/basic-auth from cache
+1399 verbose get saving basic-auth to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/basic-auth/.cache.json
+1400 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1401 silly get cb [ 304, undefined ]
+1402 verbose etag http://etc199.austin.ibm.com:4873/sinon from cache
+1403 verbose get saving sinon to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/sinon/.cache.json
+1404 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1405 silly get cb [ 304, undefined ]
+1406 verbose etag http://etc199.austin.ibm.com:4873/is-utf8 from cache
+1407 verbose get saving is-utf8 to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/is-utf8/.cache.json
+1408 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1409 silly get cb [ 304, undefined ]
+1410 verbose etag http://etc199.austin.ibm.com:4873/body-parser from cache
+1411 verbose get saving body-parser to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/body-parser/.cache.json
+1412 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1413 silly get cb [ 304, undefined ]
+1414 verbose etag http://etc199.austin.ibm.com:4873/ws from cache
+1415 verbose get saving ws to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/ws/.cache.json
+1416 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1417 silly get cb [ 304, undefined ]
+1418 verbose etag http://etc199.austin.ibm.com:4873/supertest from cache
+1419 verbose get saving supertest to /Users/lebrun/.npm/etc199.austin.ibm.com_4873/supertest/.cache.json
+1420 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1421 silly addNameRange number 2 { name: 'mocha', range: '>=3.2.0 <3.3.0', hasData: true }
+1422 silly addNameRange versions [ 'mocha',
+1422 silly addNameRange   [ '0.0.1-alpha1',
+1422 silly addNameRange     '0.0.1-alpha2',
+1422 silly addNameRange     '0.0.1-alpha3',
+1422 silly addNameRange     '0.0.1-alpha4',
+1422 silly addNameRange     '0.0.1-alpha5',
+1422 silly addNameRange     '0.0.1-alpha6',
+1422 silly addNameRange     '0.0.1',
+1422 silly addNameRange     '0.0.2',
+1422 silly addNameRange     '0.0.3',
+1422 silly addNameRange     '0.0.4',
+1422 silly addNameRange     '0.0.5',
+1422 silly addNameRange     '0.0.6',
+1422 silly addNameRange     '0.0.7',
+1422 silly addNameRange     '0.0.8',
+1422 silly addNameRange     '0.1.0',
+1422 silly addNameRange     '0.2.0',
+1422 silly addNameRange     '0.3.0',
+1422 silly addNameRange     '0.3.1',
+1422 silly addNameRange     '0.3.2',
+1422 silly addNameRange     '0.3.3',
+1422 silly addNameRange     '0.3.4',
+1422 silly addNameRange     '0.3.6',
+1422 silly addNameRange     '0.4.0',
+1422 silly addNameRange     '0.5.0',
+1422 silly addNameRange     '0.6.0',
+1422 silly addNameRange     '0.7.0',
+1422 silly addNameRange     '0.7.1',
+1422 silly addNameRange     '0.8.0',
+1422 silly addNameRange     '0.8.1',
+1422 silly addNameRange     '0.9.0',
+1422 silly addNameRange     '0.10.0',
+1422 silly addNameRange     '0.10.1',
+1422 silly addNameRange     '0.10.2',
+1422 silly addNameRange     '0.11.0',
+1422 silly addNameRange     '0.12.0',
+1422 silly addNameRange     '0.12.1',
+1422 silly addNameRange     '0.13.0',
+1422 silly addNameRange     '0.14.0',
+1422 silly addNameRange     '0.14.1',
+1422 silly addNameRange     '1.0.0',
+1422 silly addNameRange     '1.0.1',
+1422 silly addNameRange     '1.0.2',
+1422 silly addNameRange     '1.0.3',
+1422 silly addNameRange     '1.1.0',
+1422 silly addNameRange     '1.2.0',
+1422 silly addNameRange     '1.2.1',
+1422 silly addNameRange     '1.2.2',
+1422 silly addNameRange     '1.3.0',
+1422 silly addNameRange     '1.3.1',
+1422 silly addNameRange     '1.3.2',
+1422 silly addNameRange     '1.4.0',
+1422 silly addNameRange     '1.4.1',
+1422 silly addNameRange     '1.4.2',
+1422 silly addNameRange     '1.4.3',
+1422 silly addNameRange     '1.5.0',
+1422 silly addNameRange     '1.6.0',
+1422 silly addNameRange     '1.7.0',
+1422 silly addNameRange     '1.7.1',
+1422 silly addNameRange     '1.7.2',
+1422 silly addNameRange     '1.7.3',
+1422 silly addNameRange     '1.7.4',
+1422 silly addNameRange     '1.8.0',
+1422 silly addNameRange     '1.8.1',
+1422 silly addNameRange     '1.8.2',
+1422 silly addNameRange     '1.9.0',
+1422 silly addNameRange     '1.10.0',
+1422 silly addNameRange     '1.11.0',
+1422 silly addNameRange     '1.12.0',
+1422 silly addNameRange     '1.12.1',
+1422 silly addNameRange     '1.13.0',
+1422 silly addNameRange     '1.14.0',
+1422 silly addNameRange     '1.15.0',
+1422 silly addNameRange     '1.15.1',
+1422 silly addNameRange     '1.16.0',
+1422 silly addNameRange     '1.16.1',
+1422 silly addNameRange     '1.16.2',
+1422 silly addNameRange     '1.17.0',
+1422 silly addNameRange     '1.17.1',
+1422 silly addNameRange     '1.18.0',
+1422 silly addNameRange     '1.18.1',
+1422 silly addNameRange     '1.18.2',
+1422 silly addNameRange     '1.19.0',
+1422 silly addNameRange     '1.20.0',
+1422 silly addNameRange     '1.20.1',
+1422 silly addNameRange     '1.21.0',
+1422 silly addNameRange     '1.21.1',
+1422 silly addNameRange     '1.21.2',
+1422 silly addNameRange     '1.21.3',
+1422 silly addNameRange     '1.21.4',
+1422 silly addNameRange     '1.21.5',
+1422 silly addNameRange     '2.0.0',
+1422 silly addNameRange     '2.0.1',
+1422 silly addNameRange     '2.1.0',
+1422 silly addNameRange     '2.2.0',
+1422 silly addNameRange     '2.2.1',
+1422 silly addNameRange     '2.2.3',
+1422 silly addNameRange     '2.2.4',
+1422 silly addNameRange     '2.2.5',
+1422 silly addNameRange     '2.3.0',
+1422 silly addNameRange     '2.3.1',
+1422 silly addNameRange     '2.3.2',
+1422 silly addNameRange     '2.3.3',
+1422 silly addNameRange     '2.3.4',
+1422 silly addNameRange     '2.4.1',
+1422 silly addNameRange     '2.4.2',
+1422 silly addNameRange     '2.4.3',
+1422 silly addNameRange     '2.4.4',
+1422 silly addNameRange     '2.4.5',
+1422 silly addNameRange     '2.5.0',
+1422 silly addNameRange     '2.5.1',
+1422 silly addNameRange     '2.5.2',
+1422 silly addNameRange     '2.5.3',
+1422 silly addNameRange     '3.0.0-0',
+1422 silly addNameRange     '3.0.0-1',
+1422 silly addNameRange     '3.0.0-2',
+1422 silly addNameRange     '3.0.0',
+1422 silly addNameRange     '3.0.1',
+1422 silly addNameRange     '3.0.2',
+1422 silly addNameRange     '3.1.0',
+1422 silly addNameRange     '3.1.1',
+1422 silly addNameRange     '3.1.2',
+1422 silly addNameRange     '3.2.0',
+1422 silly addNameRange     '3.3.0',
+1422 silly addNameRange     '3.4.1',
+1422 silly addNameRange     '3.4.2' ] ]
+1423 silly addNamed mocha@3.2.0
+1424 verbose addNamed "3.2.0" is a plain semver version for mocha
+1425 silly cache afterAdd raw-body@2.2.0
+1426 verbose afterAdd /Users/lebrun/.npm/raw-body/2.2.0/package/package.json not in flight; writing
+1427 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1428 silly cache afterAdd on-headers@1.0.1
+1429 verbose afterAdd /Users/lebrun/.npm/on-headers/1.0.1/package/package.json not in flight; writing
+1430 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1431 silly cache afterAdd nopt@3.0.6
+1432 verbose afterAdd /Users/lebrun/.npm/nopt/3.0.6/package/package.json not in flight; writing
+1433 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1434 silly cache afterAdd uglify-js@2.7.5
+1435 verbose afterAdd /Users/lebrun/.npm/uglify-js/2.7.5/package/package.json not in flight; writing
+1436 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1437 silly cache afterAdd mustache@2.3.0
+1438 verbose afterAdd /Users/lebrun/.npm/mustache/2.3.0/package/package.json not in flight; writing
+1439 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1440 silly cache afterAdd fs-extra@1.0.0
+1441 verbose afterAdd /Users/lebrun/.npm/fs-extra/1.0.0/package/package.json not in flight; writing
+1442 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1443 silly cache afterAdd js-yaml@3.7.0
+1444 verbose afterAdd /Users/lebrun/.npm/js-yaml/3.7.0/package/package.json not in flight; writing
+1445 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1446 silly cache afterAdd media-typer@0.3.0
+1447 verbose afterAdd /Users/lebrun/.npm/media-typer/0.3.0/package/package.json not in flight; writing
+1448 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1449 silly cache afterAdd semver@5.3.0
+1450 verbose afterAdd /Users/lebrun/.npm/semver/5.3.0/package/package.json not in flight; writing
+1451 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1452 silly cache afterAdd mqtt@2.2.1
+1453 verbose afterAdd /Users/lebrun/.npm/mqtt/2.2.1/package/package.json not in flight; writing
+1454 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1455 silly cache afterAdd json-stringify-safe@5.0.1
+1456 verbose afterAdd /Users/lebrun/.npm/json-stringify-safe/5.0.1/package/package.json not in flight; writing
+1457 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1458 silly cache afterAdd express@4.14.0
+1459 verbose afterAdd /Users/lebrun/.npm/express/4.14.0/package/package.json not in flight; writing
+1460 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1461 silly cache afterAdd xml2js@0.4.17
+1462 verbose afterAdd /Users/lebrun/.npm/xml2js/0.4.17/package/package.json not in flight; writing
+1463 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1464 silly cache afterAdd sinon@1.17.7
+1465 verbose afterAdd /Users/lebrun/.npm/sinon/1.17.7/package/package.json not in flight; writing
+1466 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1467 silly cache afterAdd basic-auth@1.1.0
+1468 verbose afterAdd /Users/lebrun/.npm/basic-auth/1.1.0/package/package.json not in flight; writing
+1469 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1470 silly cache afterAdd mocha@3.2.0
+1471 verbose afterAdd /Users/lebrun/.npm/mocha/3.2.0/package/package.json not in flight; writing
+1472 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1473 silly cache afterAdd body-parser@1.15.2
+1474 verbose afterAdd /Users/lebrun/.npm/body-parser/1.15.2/package/package.json not in flight; writing
+1475 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1476 silly cache afterAdd supertest@2.0.1
+1477 verbose afterAdd /Users/lebrun/.npm/supertest/2.0.1/package/package.json not in flight; writing
+1478 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1479 silly cache afterAdd ws@1.1.1
+1480 verbose afterAdd /Users/lebrun/.npm/ws/1.1.1/package/package.json not in flight; writing
+1481 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1482 silly cache afterAdd is-utf8@0.2.1
+1483 verbose afterAdd /Users/lebrun/.npm/is-utf8/0.2.1/package/package.json not in flight; writing
+1484 verbose correctMkdir /Users/lebrun/.npm correctMkdir not in flight; initializing
+1485 verbose afterAdd /Users/lebrun/.npm/raw-body/2.2.0/package/package.json written
+1486 verbose afterAdd /Users/lebrun/.npm/on-headers/1.0.1/package/package.json written
+1487 verbose afterAdd /Users/lebrun/.npm/fs-extra/1.0.0/package/package.json written
+1488 verbose afterAdd /Users/lebrun/.npm/mustache/2.3.0/package/package.json written
+1489 verbose afterAdd /Users/lebrun/.npm/uglify-js/2.7.5/package/package.json written
+1490 verbose afterAdd /Users/lebrun/.npm/nopt/3.0.6/package/package.json written
+1491 verbose afterAdd /Users/lebrun/.npm/media-typer/0.3.0/package/package.json written
+1492 verbose afterAdd /Users/lebrun/.npm/js-yaml/3.7.0/package/package.json written
+1493 verbose afterAdd /Users/lebrun/.npm/semver/5.3.0/package/package.json written
+1494 verbose afterAdd /Users/lebrun/.npm/mqtt/2.2.1/package/package.json written
+1495 verbose afterAdd /Users/lebrun/.npm/json-stringify-safe/5.0.1/package/package.json written
+1496 verbose afterAdd /Users/lebrun/.npm/express/4.14.0/package/package.json written
+1497 verbose afterAdd /Users/lebrun/.npm/xml2js/0.4.17/package/package.json written
+1498 verbose afterAdd /Users/lebrun/.npm/sinon/1.17.7/package/package.json written
+1499 verbose afterAdd /Users/lebrun/.npm/basic-auth/1.1.0/package/package.json written
+1500 verbose afterAdd /Users/lebrun/.npm/mocha/3.2.0/package/package.json written
+1501 verbose afterAdd /Users/lebrun/.npm/body-parser/1.15.2/package/package.json written
+1502 verbose afterAdd /Users/lebrun/.npm/supertest/2.0.1/package/package.json written
+1503 verbose afterAdd /Users/lebrun/.npm/is-utf8/0.2.1/package/package.json written
+1504 verbose afterAdd /Users/lebrun/.npm/ws/1.1.1/package/package.json written
+1505 verbose stack Error: connect ETIMEDOUT 9.3.11.199:4873
+1505 verbose stack     at Object.exports._errnoException (util.js:870:11)
+1505 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+1505 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1057:14)
+1506 verbose cwd /Users/lebrun/Documents/interco17/nodered/node-red
+1507 error Darwin 16.7.0
+1508 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+1509 error node v4.4.1
+1510 error npm  v2.14.20
+1511 error code ETIMEDOUT
+1512 error errno ETIMEDOUT
+1513 error syscall connect
+1514 error network connect ETIMEDOUT 9.3.11.199:4873
+1514 error network This is most likely not a problem with npm itself
+1514 error network and is related to network connectivity.
+1514 error network In most cases you are behind a proxy or have bad network settings.
+1514 error network
+1514 error network If you are behind a proxy, please make sure that the
+1514 error network 'proxy' config is set properly.  See: 'npm help config'
+1515 verbose exit [ 1, true ]
